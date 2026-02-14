@@ -1,4 +1,4 @@
-namespace DFI.Common.Infrastructure.Settings;
+namespace W2K.Common.Infrastructure.Settings;
 
 public record AzureADSettings
 {

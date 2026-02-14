@@ -1,7 +1,7 @@
 #pragma warning disable CA1720 // Identifiers should not contain type names
 using System.ComponentModel;
 
-namespace DFI.Common.Extensions;
+namespace W2K.Common.Extensions;
 
 public static class GenericTypeExtensions
 {

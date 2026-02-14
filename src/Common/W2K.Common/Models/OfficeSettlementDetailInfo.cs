@@ -1,4 +1,4 @@
-namespace DFI.Common.Models;
+namespace W2K.Common.Models;
 
 public readonly record struct OfficeSettlementDetail
 {

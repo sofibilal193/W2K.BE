@@ -2,7 +2,7 @@ using System.Diagnostics.CodeAnalysis;
 using System.Linq.Expressions;
 using System.Reflection;
 
-namespace DFI.Common.Persistence.Extensions;
+namespace W2K.Common.Persistence.Extensions;
 
 [SuppressMessage("Maintainability", "S3242", Justification = "The derived type is used for future extensibility, even though only base type members are accessed currently.")]
 /// <summary>

@@ -1,7 +1,7 @@
-using DFI.Common.Crypto;
+using W2K.Common.Crypto;
 using ProtoBuf;
 
-namespace DFI.Common.Application.DTOs;
+namespace W2K.Common.Application.DTOs;
 
 [Serializable]
 [ProtoContract]

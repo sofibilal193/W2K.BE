@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Storage;
 
-namespace DFI.Common.Persistence.Interfaces;
+namespace W2K.Common.Persistence.Interfaces;
 
 public interface IDbContext : IAsyncDisposable
 {

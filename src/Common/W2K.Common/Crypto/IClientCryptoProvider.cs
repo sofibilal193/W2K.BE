@@ -1,4 +1,4 @@
-namespace DFI.Common.Crypto;
+namespace W2K.Common.Crypto;
 
 public interface IClientCryptoProvider
 {

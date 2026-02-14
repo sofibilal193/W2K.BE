@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace DFI.Common.Application.Storage;
+namespace W2K.Common.Application.Storage;
 
 public interface IStorageProvider : IDisposable
 {

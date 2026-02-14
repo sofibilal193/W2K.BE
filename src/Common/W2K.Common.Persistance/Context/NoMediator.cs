@@ -1,7 +1,7 @@
 using System.Diagnostics.CodeAnalysis;
 using MediatR;
 
-namespace DFI.Common.Persistence.Context;
+namespace W2K.Common.Persistence.Context;
 
 [ExcludeFromCodeCoverage(Justification = "This method handles infrastructure-specific logic and does not require unit test coverage.")]
 public class NoMediator : IMediator

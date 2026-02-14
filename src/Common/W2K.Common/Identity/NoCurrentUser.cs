@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace DFI.Common.Identity;
+namespace W2K.Common.Identity;
 
 public class NoCurrentUser : ICurrentUser
 {

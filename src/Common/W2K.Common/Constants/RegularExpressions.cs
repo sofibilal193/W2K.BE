@@ -1,6 +1,6 @@
 #pragma warning disable CA1724 // Type names should not match namespaces
 
-namespace DFI.Common.Constants;
+namespace W2K.Common.Constants;
 
 /// <summary>
 /// Common regular expression strings.

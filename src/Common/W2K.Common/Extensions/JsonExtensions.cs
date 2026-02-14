@@ -1,7 +1,7 @@
 using System.Text.Json;
-using DFI.Common.Constants;
+using W2K.Common.Constants;
 
-namespace DFI.Common.Extensions;
+namespace W2K.Common.Extensions;
 
 public static class JsonExtensions
 {

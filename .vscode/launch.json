@@ -1,0 +1,52 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "W2K.Mono: Launch",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build services",
+      "program": "${workspaceFolder}/src/Services/W2K.Mono/bin/Debug/net10.0/W2K.Mono.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/Services/W2K.Mono",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "^\\s*Now listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:5001"
+      }
+    },
+    {
+      "name": "W2K.Identity: Launch",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build services",
+      "program": "${workspaceFolder}/src/Services/W2K.Identity/bin/Debug/net10.0/W2K.Identity.dll",
+      "args": [],
+      "cwd": "${workspaceFolder}/src/Services/W2K.Identity",
+      "stopAtEntry": false,
+      "serverReadyAction": {
+        "action": "openExternally",
+        "pattern": "^\\s*Now listening on:\\s+(https?://\\S+)"
+      },
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "https://localhost:5002"
+      }
+    }
+  ],
+  "compounds": [
+    {
+      "name": "Launch Mono + Identity",
+      "configurations": [
+        "W2K.Mono: Launch",
+        "W2K.Identity: Launch"
+      ],
+      "stopAll": true,
+      "preLaunchTask": "build services"
+    }
+  ]
+}

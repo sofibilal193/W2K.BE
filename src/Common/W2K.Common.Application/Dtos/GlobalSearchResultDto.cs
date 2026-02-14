@@ -1,6 +1,6 @@
-using DFI.Common.Application.Queries.GlobalSearch;
+using W2K.Common.Application.Queries.GlobalSearch;
 
-namespace DFI.Common.Application.Dtos;
+namespace W2K.Common.Application.Dtos;
 
 /// <summary>
 /// DTO representing a global search result item.

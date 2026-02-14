@@ -1,10 +1,10 @@
-using DFI.Common.Application.Auth;
-using DFI.Common.Application.Settings;
-using DFI.Common.Utils;
+using W2K.Common.Application.Auth;
+using W2K.Common.Application.Settings;
+using W2K.Common.Utils;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-namespace DFI.Common.Application.DependencyInjection;
+namespace W2K.Common.Application.DependencyInjection;
 
 public static class CorsServices
 {

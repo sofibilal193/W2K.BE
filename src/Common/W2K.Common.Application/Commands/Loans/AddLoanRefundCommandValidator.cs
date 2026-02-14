@@ -1,8 +1,8 @@
-using DFI.Common.Application.Extensions;
+using W2K.Common.Application.Extensions;
 using FluentValidation;
 
 #pragma warning disable IDE0130 // Namespace does not match folder structure
-namespace DFI.Common.Application;
+namespace W2K.Common.Application;
 #pragma warning restore IDE0130 // Namespace does not match folder structure
 
 /// <summary>

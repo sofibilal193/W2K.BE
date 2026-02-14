@@ -1,5 +1,5 @@
 #pragma warning disable IDE0130 // Namespace does not match folder structure
-namespace DFI.Common.Models.Lenders;
+namespace W2K.Common.Models.Lenders;
 #pragma warning restore IDE0130 // Namespace does not match folder structure
 
 
@@ -13,7 +13,7 @@ public record SubmitRefundResponse
     public string? ErrorCode { get; set; }
 
     public string? ErrorMessage { get; set; }
- 
+
     public bool Success { get; set; }
 
     public void SetError(bool isError, string? errorCode, string? errorMessage)

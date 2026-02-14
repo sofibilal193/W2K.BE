@@ -1,9 +1,9 @@
-using DFI.Common.Persistence.Context;
+using W2K.Common.Persistence.Context;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DFI.Common.Persistence.Extensions;
+namespace W2K.Common.Persistence.Extensions;
 
 public static class IHostExtensions
 {

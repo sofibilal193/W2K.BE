@@ -1,14 +1,14 @@
 #pragma warning disable CA2213 // Disposable fields should be disposed
 using System.Net;
-using DFI.Common.Application.AzureAd;
-using DFI.Common.Utils;
-using DFI.Common.Crypto;
-using DFI.Common.Infrastructure.Settings;
+using W2K.Common.Application.AzureAd;
+using W2K.Common.Utils;
+using W2K.Common.Crypto;
+using W2K.Common.Infrastructure.Settings;
 using Microsoft.Extensions.Logging;
 using Microsoft.Graph.Models;
 using Microsoft.Graph.Models.ODataErrors;
 
-namespace DFI.Common.Infrastructure.AzureAd;
+namespace W2K.Common.Infrastructure.AzureAd;
 
 /// <summary>
 /// Azure AD provider that implements user management operations using Microsoft Graph.

@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace DFI.Common.Events;
+namespace W2K.Common.Events;
 
 public abstract record EventLogNotification(
     string EventType,

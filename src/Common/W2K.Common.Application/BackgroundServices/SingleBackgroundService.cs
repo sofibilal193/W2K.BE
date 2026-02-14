@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Diagnostics.CodeAnalysis;
-using DFI.Common.Application.Cacheing;
-using DFI.Common.Utils;
+using W2K.Common.Application.Cacheing;
+using W2K.Common.Utils;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DFI.Common.Application.BackgroundServices;
+namespace W2K.Common.Application.BackgroundServices;
 
 [ExcludeFromCodeCoverage(Justification = "Abstract background service does not need unit tests.")]
 [SuppressMessage("Maintainability", "T0038", Justification = "We need to suppress this rule here, because the abstract class has some false positives that do not apply.")]

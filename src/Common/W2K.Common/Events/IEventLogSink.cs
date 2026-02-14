@@ -1,4 +1,4 @@
-namespace DFI.Common.Events;
+namespace W2K.Common.Events;
 
 public interface IEventLogSink
 {

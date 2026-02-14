@@ -1,7 +1,7 @@
 using System.Text.Json;
-using DFI.Common.Exceptions;
+using W2K.Common.Exceptions;
 
-namespace DFI.Common.Extensions;
+namespace W2K.Common.Extensions;
 
 public static class JsonSerializerOptionsExtensions
 {

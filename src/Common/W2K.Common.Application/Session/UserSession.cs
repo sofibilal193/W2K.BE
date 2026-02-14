@@ -1,6 +1,6 @@
 using ProtoBuf;
 
-namespace DFI.Common.Application.Session;
+namespace W2K.Common.Application.Session;
 
 /// <summary>
 /// Represents a unique user session.

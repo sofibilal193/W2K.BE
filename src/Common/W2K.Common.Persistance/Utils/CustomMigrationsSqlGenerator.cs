@@ -2,14 +2,14 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using DFI.Common.Persistence.Security;
+using W2K.Common.Persistence.Security;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Migrations.Operations;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Update;
 
-namespace DFI.Common.Persistence.Utils;
+namespace W2K.Common.Persistence.Utils;
 
 [ExcludeFromCodeCoverage(Justification = "Excluded from code coverage as we don't need coverage for this class.")]
 public class CustomMigrationsSqlGenerator(MigrationsSqlGeneratorDependencies dependencies, ICommandBatchPreparer commandBatchPreparer) : SqlServerMigrationsSqlGenerator(dependencies, commandBatchPreparer)

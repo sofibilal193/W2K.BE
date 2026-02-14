@@ -4,7 +4,7 @@ using System.Globalization;
 using System.Text.Json;
 using System.Text.Json.Serialization;
 
-namespace DFI.Common.Converters;
+namespace W2K.Common.Converters;
 
 /// <summary>
 /// Generic converter that converts a JSON string to a nullable value type.

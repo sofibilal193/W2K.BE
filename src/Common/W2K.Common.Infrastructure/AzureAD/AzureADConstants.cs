@@ -1,4 +1,4 @@
-namespace DFI.Common.Infrastructure.AzureAd;
+namespace W2K.Common.Infrastructure.AzureAd;
 
 public static class AzureADConstants
 {

@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Validations;
+namespace W2K.Common.Application.Validations;
 
 [AttributeUsage(AttributeTargets.Field, AllowMultiple = false)]
 public sealed class MessageAttribute(string message) : Attribute

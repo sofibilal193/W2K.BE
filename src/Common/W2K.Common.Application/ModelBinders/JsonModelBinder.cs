@@ -3,7 +3,7 @@
 using System.Text.Json;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace DFI.Common.Application.ModelBinders;
+namespace W2K.Common.Application.ModelBinders;
 
 public class JsonModelBinder : IModelBinder
 {

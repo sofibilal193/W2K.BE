@@ -1,6 +1,6 @@
 using ProtoBuf;
 
-namespace DFI.Common.Utils;
+namespace W2K.Common.Utils;
 
 public static class SerializeUtil
 {

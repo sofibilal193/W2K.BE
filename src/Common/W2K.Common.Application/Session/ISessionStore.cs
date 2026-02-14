@@ -1,5 +1,5 @@
 #pragma warning disable CA1716 // Identifiers should not match keywords
-namespace DFI.Common.Application.Session;
+namespace W2K.Common.Application.Session;
 
 public interface ISessionStore
 {

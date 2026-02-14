@@ -1,8 +1,8 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using DFI.Common.Converters;
+using W2K.Common.Converters;
 
-namespace DFI.Common.Constants;
+namespace W2K.Common.Constants;
 
 /// <summary>
 /// Common JSON options

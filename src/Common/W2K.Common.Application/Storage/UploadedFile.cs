@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Storage;
+namespace W2K.Common.Application.Storage;
 
 public record UploadedFile
 {

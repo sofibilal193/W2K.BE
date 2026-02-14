@@ -1,15 +1,15 @@
 #pragma warning disable IDE0046 // Use conditional expression for return
 
-using DFI.Common.Application.Auth;
-using DFI.Common.Application.Identity;
-using DFI.Common.Application.Session;
-using DFI.Common.Application.Settings;
-using DFI.Common.Crypto;
+using W2K.Common.Application.Auth;
+using W2K.Common.Application.Identity;
+using W2K.Common.Application.Session;
+using W2K.Common.Application.Settings;
+using W2K.Common.Crypto;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Application.Crypto;
+namespace W2K.Common.Application.Crypto;
 
 public class ClientCryptoProvider(
     IHttpContextAccessor httpContextAccessor,

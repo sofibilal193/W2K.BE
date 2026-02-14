@@ -2,14 +2,14 @@
 using System.Data;
 using System.Diagnostics.CodeAnalysis;
 using System.Reflection;
-using DFI.Common.Crypto;
-using DFI.Common.Entities;
-using DFI.Common.Identity;
-using DFI.Common.Persistence.Encryption;
-using DFI.Common.Persistence.Extensions;
-using DFI.Common.Persistence.Interfaces;
-using DFI.Common.Persistence.Settings;
-using DFI.Common.Persistence.Utils;
+using W2K.Common.Crypto;
+using W2K.Common.Entities;
+using W2K.Common.Identity;
+using W2K.Common.Persistence.Encryption;
+using W2K.Common.Persistence.Extensions;
+using W2K.Common.Persistence.Interfaces;
+using W2K.Common.Persistence.Settings;
+using W2K.Common.Persistence.Utils;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Diagnostics;
@@ -20,7 +20,7 @@ using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Persistence.Context;
+namespace W2K.Common.Persistence.Context;
 
 /// <summary>
 /// BaseDbContext is a base class for all DbContext classes in the application.
@@ -37,14 +37,14 @@ public abstract class BaseDbContext<TContext>(
     IOptions<PersistenceSettings> settings) : DbContext(options), IDbContext
     where TContext : DbContext
 {
-        private IDbContextTransaction? _currentTransaction;
-        private readonly PersistenceSettings _settings = settings?.Value ?? throw new ArgumentNullException(nameof(settings));
-        private readonly ICurrentUser _currentUser = currentUser ?? throw new ArgumentNullException(nameof(currentUser));
-        private readonly ILogger<BaseDbContext<TContext>> _logger = logger ?? throw new ArgumentNullException(nameof(logger));
-    #pragma warning disable CA2213 // Disposable fields should be disposed - ICryptoProvider lifetime is managed by DI container
-        private readonly ICryptoProvider _cryptoProvider = cryptoProvider ?? throw new ArgumentNullException(nameof(cryptoProvider));
-    #pragma warning restore CA2213 // Disposable fields should be disposed
-        private readonly IMediator _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
+    private IDbContextTransaction? _currentTransaction;
+    private readonly PersistenceSettings _settings = settings?.Value ?? throw new ArgumentNullException(nameof(settings));
+    private readonly ICurrentUser _currentUser = currentUser ?? throw new ArgumentNullException(nameof(currentUser));
+    private readonly ILogger<BaseDbContext<TContext>> _logger = logger ?? throw new ArgumentNullException(nameof(logger));
+#pragma warning disable CA2213 // Disposable fields should be disposed - ICryptoProvider lifetime is managed by DI container
+    private readonly ICryptoProvider _cryptoProvider = cryptoProvider ?? throw new ArgumentNullException(nameof(cryptoProvider));
+#pragma warning restore CA2213 // Disposable fields should be disposed
+    private readonly IMediator _mediator = mediator ?? throw new ArgumentNullException(nameof(mediator));
 
     #region Public Properties
 

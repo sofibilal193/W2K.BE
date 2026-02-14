@@ -1,14 +1,14 @@
 #pragma warning disable CA2000 // Dispose objects before losing scope
 using System.Diagnostics.CodeAnalysis;
-using DFI.Common.Crypto;
-using DFI.Common.Identity;
-using DFI.Common.Persistence.Settings;
+using W2K.Common.Crypto;
+using W2K.Common.Identity;
+using W2K.Common.Persistence.Settings;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Persistence.Context;
+namespace W2K.Common.Persistence.Context;
 
 [ExcludeFromCodeCoverage(Justification = "Tests not needed.")]
 public class EventDbContextFactory : DesignTimeDbContextFactoryBase<EventDbContext>

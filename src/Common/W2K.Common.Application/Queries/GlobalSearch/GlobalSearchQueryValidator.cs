@@ -1,6 +1,6 @@
 using FluentValidation;
 
-namespace DFI.Common.Application.Queries.GlobalSearch;
+namespace W2K.Common.Application.Queries.GlobalSearch;
 
 /// <summary>
 /// Validator for <see cref="GlobalSearchQuery"/>.

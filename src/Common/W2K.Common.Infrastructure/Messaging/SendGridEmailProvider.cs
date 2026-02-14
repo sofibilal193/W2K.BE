@@ -1,11 +1,11 @@
 using System.Collections.ObjectModel;
 using System.Net;
-using DFI.Common.Application.Messaging;
-using DFI.Common.Exceptions;
+using W2K.Common.Application.Messaging;
+using W2K.Common.Exceptions;
 using SendGrid;
 using SendGrid.Helpers.Mail;
 
-namespace DFI.Common.Infrastructure.Messaging;
+namespace W2K.Common.Infrastructure.Messaging;
 
 /// <summary>
 /// An implementation of IEmailprovider using SendGrid

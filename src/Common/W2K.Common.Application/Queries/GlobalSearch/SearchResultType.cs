@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Queries.GlobalSearch;
+namespace W2K.Common.Application.Queries.GlobalSearch;
 
 /// <summary>
 /// Defines the type of search result returned from global search.

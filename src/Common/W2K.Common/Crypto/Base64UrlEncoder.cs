@@ -1,6 +1,6 @@
 using System.Text;
 
-namespace DFI.Common.Crypto;
+namespace W2K.Common.Crypto;
 
 public static class Base64UrlEncoder
 {

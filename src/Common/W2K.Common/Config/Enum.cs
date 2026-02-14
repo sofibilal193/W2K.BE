@@ -1,4 +1,4 @@
-namespace DFI.Common.Config;
+namespace W2K.Common.Config;
 
 public enum FieldType
 {

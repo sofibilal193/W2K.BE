@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.ApiClients;
+namespace W2K.Common.Application.ApiClients;
 
 /// <summary>
 /// API client implementation for communicating with the Config service.

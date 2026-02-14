@@ -1,10 +1,10 @@
 #pragma warning disable CA1724 // Type names should not match namespaces
 using System.Collections.Concurrent;
-using DFI.Common.Application.Cacheing;
-using DFI.Common.Utils;
+using W2K.Common.Application.Cacheing;
+using W2K.Common.Utils;
 using Microsoft.Extensions.Caching.Distributed;
 
-namespace DFI.Common.Infrastructure.Cacheing;
+namespace W2K.Common.Infrastructure.Cacheing;
 
 public sealed class Cache(IDistributedCache cache) : ICache
 {

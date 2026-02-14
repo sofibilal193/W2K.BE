@@ -1,4 +1,4 @@
-namespace DFI.Common.Models;
+namespace W2K.Common.Models;
 
 /// <summary>
 /// Model containing information about a loan decision offer.

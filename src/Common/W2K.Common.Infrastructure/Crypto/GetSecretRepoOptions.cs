@@ -1,7 +1,7 @@
-using DFI.Common.Infrastructure.Settings;
+using W2K.Common.Infrastructure.Settings;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Infrastructure.Crypto;
+namespace W2K.Common.Infrastructure.Crypto;
 
 public record GetSecretRepoOptions : SecretRepoOptions
 {

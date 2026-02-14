@@ -1,13 +1,13 @@
-using DFI.Common.Crypto;
-using DFI.Common.Identity;
-using DFI.Common.Persistence.Context;
-using DFI.Common.Persistence.Settings;
+using W2K.Common.Crypto;
+using W2K.Common.Identity;
+using W2K.Common.Persistence.Context;
+using W2K.Common.Persistence.Settings;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Persistence.Extensions;
+namespace W2K.Common.Persistence.Extensions;
 
 public static class BaseDbContextExtensions
 {

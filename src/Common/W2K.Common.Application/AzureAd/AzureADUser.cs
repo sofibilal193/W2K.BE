@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.AzureAd;
+namespace W2K.Common.Application.AzureAd;
 
 public readonly record struct AzureADUser(
     string Id,

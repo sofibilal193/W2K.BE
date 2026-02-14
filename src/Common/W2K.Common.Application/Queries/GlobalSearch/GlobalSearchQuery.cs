@@ -1,7 +1,7 @@
-using DFI.Common.Application.Dtos;
+using W2K.Common.Application.Dtos;
 using MediatR;
 
-namespace DFI.Common.Application.Queries.GlobalSearch;
+namespace W2K.Common.Application.Queries.GlobalSearch;
 
 /// <summary>
 /// Query for global search across offices and users.

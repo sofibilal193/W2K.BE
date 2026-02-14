@@ -1,5 +1,5 @@
 #pragma warning disable CA1716 // Identifiers should not match keywords
-namespace DFI.Common.Application.Cacheing;
+namespace W2K.Common.Application.Cacheing;
 
 /// <summary>
 /// Defines a contract for an asynchronous and synchronous cache provider supporting various expiration strategies.

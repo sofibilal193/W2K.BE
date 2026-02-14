@@ -1,11 +1,11 @@
-using DFI.Common.Application.Cacheing;
-using DFI.Common.Application.Session;
-using DFI.Common.Identity;
-using DFI.Common.Infrastructure.Settings;
+using W2K.Common.Application.Cacheing;
+using W2K.Common.Application.Session;
+using W2K.Common.Identity;
+using W2K.Common.Infrastructure.Settings;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Infrastructure.Session;
+namespace W2K.Common.Infrastructure.Session;
 
 #pragma warning disable IDE0046 // Use conditional expression for return
 

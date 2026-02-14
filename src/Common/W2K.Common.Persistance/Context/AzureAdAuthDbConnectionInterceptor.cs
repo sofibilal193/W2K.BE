@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Diagnostics;
 using System.Diagnostics.CodeAnalysis;
 using System.Data;
 
-namespace DFI.Common.Persistence.Context;
+namespace W2K.Common.Persistence.Context;
 
 [ExcludeFromCodeCoverage(Justification = "Excluded from code coverage as we don't need coverage for this class.")]
 public class AzureAdAuthDbConnectionInterceptor : DbConnectionInterceptor

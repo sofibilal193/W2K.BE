@@ -1,8 +1,8 @@
-using DFI.Common.Application.Settings;
+using W2K.Common.Application.Settings;
 using Microsoft.Extensions.Options;
 using Microsoft.Identity.Web;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public class MicrosoftIdentityOptionsSetup(IOptions<AppSettings> settings) : IConfigureNamedOptions<MicrosoftIdentityOptions>
 {

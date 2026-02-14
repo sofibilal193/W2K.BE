@@ -1,12 +1,12 @@
 using System.Net;
 using System.Net.Http.Headers;
 using System.Security.Claims;
-using DFI.Common.Application.Auth;
-using DFI.Common.Utils;
+using W2K.Common.Application.Auth;
+using W2K.Common.Utils;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Primitives;
 
-namespace DFI.Common.Application.Identity;
+namespace W2K.Common.Application.Identity;
 
 public static class HttpContextExtensions
 {

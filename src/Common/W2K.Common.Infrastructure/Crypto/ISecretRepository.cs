@@ -1,4 +1,4 @@
-namespace DFI.Common.Infrastructure.Crypto;
+namespace W2K.Common.Infrastructure.Crypto;
 
 public interface ISecretRepository : IDisposable
 {

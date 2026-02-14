@@ -1,9 +1,9 @@
 #pragma warning disable CA1819 // Properties should not return arrays
 
 using System.Text.Json.Serialization;
-using DFI.Common.Events;
+using W2K.Common.Events;
 
-namespace DFI.Common.Entities;
+namespace W2K.Common.Entities;
 
 public abstract class BaseEntity : BaseEntityLogProps
 {

@@ -1,8 +1,8 @@
 using System.Collections.ObjectModel;
 using System.Text.Json.Serialization;
-using DFI.Common.Enums;
+using W2K.Common.Enums;
 
-namespace DFI.Common.Models;
+namespace W2K.Common.Models;
 
 /// <summary>
 /// Model containing information about loan application decision.

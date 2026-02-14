@@ -1,8 +1,8 @@
-using DFI.Common.Application.Cacheing;
+using W2K.Common.Application.Cacheing;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace DFI.Common.Application.Behaviors;
+namespace W2K.Common.Application.Behaviors;
 
 /// <summary>
 /// MediatR Caching Pipeline Behavior

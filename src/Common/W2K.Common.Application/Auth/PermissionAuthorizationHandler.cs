@@ -1,11 +1,11 @@
 using System.Security.Claims;
-using DFI.Common.Application.ApiClients;
-using DFI.Common.Application.Identity;
+using W2K.Common.Application.ApiClients;
+using W2K.Common.Application.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Logging;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public class PermissionAuthorizationHandler(IHttpContextAccessor httpContextAccessor, IIdentityApiClient identityApiClient, ILogger<PermissionAuthorizationHandler> logger) : AuthorizationHandler<PermissionRequirement>
 {

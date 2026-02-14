@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.BackgroundServices;
+namespace W2K.Common.Application.BackgroundServices;
 
 /// <summary>
 /// Root configuration settings for all background services.

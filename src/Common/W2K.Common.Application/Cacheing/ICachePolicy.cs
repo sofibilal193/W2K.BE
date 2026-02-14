@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace DFI.Common.Application.Cacheing;
+namespace W2K.Common.Application.Cacheing;
 
 // https://anderly.com/2019/12/12/cross-cutting-concerns-with-mediatr-pipeline-behaviors/
 public interface ICachePolicy<TRequest, TResponse> where TRequest : IRequest<TResponse>

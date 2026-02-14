@@ -1,12 +1,12 @@
 using System.Security.Claims;
 using System.Text;
-using DFI.Common.Application.Settings;
+using W2K.Common.Application.Settings;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public class JwtBearerOptionsSetup(IOptions<AppSettings> settings) : IConfigureNamedOptions<JwtBearerOptions>
 {

@@ -1,6 +1,6 @@
 using Microsoft.Graph.Models;
 
-namespace DFI.Common.Infrastructure.AzureAd;
+namespace W2K.Common.Infrastructure.AzureAd;
 
 /// <summary>
 /// Thin abstraction over Microsoft Graph operations used by the Azure AD provider.

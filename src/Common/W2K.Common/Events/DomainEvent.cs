@@ -1,6 +1,6 @@
 using MediatR;
 
-namespace DFI.Common.Events;
+namespace W2K.Common.Events;
 
 /// <summary>
 /// Base event all domain events should inherit from.

@@ -2,7 +2,7 @@
 using System.Diagnostics.CodeAnalysis;
 using AutoMapper;
 
-namespace DFI.Common.Application.Mappings;
+namespace W2K.Common.Application.Mappings;
 
 /// <summary>
 /// Indicates that the type defined a mapping profile configuration.

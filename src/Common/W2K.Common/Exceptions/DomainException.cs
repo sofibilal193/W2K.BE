@@ -1,4 +1,4 @@
-namespace DFI.Common.Exceptions;
+namespace W2K.Common.Exceptions;
 
 /// <summary>
 /// Exception type for domain exceptions

@@ -1,4 +1,4 @@
-namespace DFI.Common.Identity;
+namespace W2K.Common.Identity;
 
 public enum OfficeType
 {

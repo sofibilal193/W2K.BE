@@ -1,14 +1,14 @@
 using System.Diagnostics;
 using System.Net;
-using DFI.Common.Application.Validations;
-using DFI.Common.Exceptions;
+using W2K.Common.Application.Validations;
+using W2K.Common.Exceptions;
 using FluentValidation;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Application.Filters;
+namespace W2K.Common.Application.Filters;
 
 public class HttpGlobalExceptionFilter(IOptions<ApiBehaviorOptions> options, ILogger<HttpGlobalExceptionFilter> logger) : IExceptionFilter
 {

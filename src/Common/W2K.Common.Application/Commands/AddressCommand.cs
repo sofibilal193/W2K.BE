@@ -1,6 +1,6 @@
-using DFI.Common.Crypto;
+using W2K.Common.Crypto;
 
-namespace DFI.Common.Application.Commands;
+namespace W2K.Common.Application.Commands;
 
 public record AddressCommand
 {

@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Identity;
+namespace W2K.Common.Application.Identity;
 
 public static class IdentityConstants
 {

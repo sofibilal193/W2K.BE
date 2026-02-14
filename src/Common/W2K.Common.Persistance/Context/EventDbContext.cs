@@ -1,14 +1,14 @@
-using DFI.Common.Crypto;
-using DFI.Common.Identity;
-using DFI.Common.Persistence.Configurations;
-using DFI.Common.Persistence.Entities;
-using DFI.Common.Persistence.Settings;
+using W2K.Common.Crypto;
+using W2K.Common.Identity;
+using W2K.Common.Persistence.Configurations;
+using W2K.Common.Persistence.Entities;
+using W2K.Common.Persistence.Settings;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Persistence.Context;
+namespace W2K.Common.Persistence.Context;
 
 public sealed class EventDbContext(
      DbContextOptions<EventDbContext> options,

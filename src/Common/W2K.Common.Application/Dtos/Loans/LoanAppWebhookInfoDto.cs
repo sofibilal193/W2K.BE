@@ -1,7 +1,7 @@
-using DFI.Common.Enums;
+using W2K.Common.Enums;
 
 #pragma warning disable IDE0130 // Namespace does not match folder structure
-namespace DFI.Common.Application.Loans;
+namespace W2K.Common.Application.Loans;
 #pragma warning restore IDE0130 // Namespace does not match folder structure
 
 public record LoanAppWebhookInfoDto

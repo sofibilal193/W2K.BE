@@ -1,4 +1,4 @@
-namespace DFI.Common.Enums;
+namespace W2K.Common.Enums;
 
 public enum RefundStatus
 {

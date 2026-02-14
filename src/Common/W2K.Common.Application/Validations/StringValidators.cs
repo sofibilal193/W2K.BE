@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Validations;
+namespace W2K.Common.Application.Validations;
 
 public static class StringValidators
 {

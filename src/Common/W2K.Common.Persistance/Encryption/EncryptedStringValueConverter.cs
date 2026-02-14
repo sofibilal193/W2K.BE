@@ -1,7 +1,7 @@
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using DFI.Common.Crypto;
+using W2K.Common.Crypto;
 
-namespace DFI.Common.Persistence.Encryption;
+namespace W2K.Common.Persistence.Encryption;
 
 internal sealed class EncryptedStringValueConverter(ICryptoProvider? cryptoProvider = null, byte[]? encryptionKey = null, ConverterMappingHints? mappingHints = null)
     : ValueConverter<string, string>(

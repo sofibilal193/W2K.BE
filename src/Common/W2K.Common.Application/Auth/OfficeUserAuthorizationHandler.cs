@@ -1,11 +1,11 @@
 using System.Security.Claims;
-using DFI.Common.Application.ApiClients;
-using DFI.Common.Application.Identity;
-using DFI.Common.Exceptions;
+using W2K.Common.Application.ApiClients;
+using W2K.Common.Application.Identity;
+using W2K.Common.Exceptions;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Http;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public class OfficeUserAuthorizationHandler(IHttpContextAccessor httpContextAccessor, IIdentityApiClient identityApiClient) : AuthorizationHandler<OfficeUserRequirement>
 {

@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Constants;
+namespace W2K.Common.Application.Constants;
 
 /// <summary>
 /// Constants for lender codes.

@@ -1,10 +1,10 @@
 using System.Security.Cryptography;
-using DFI.Common.Application.Validations;
-using DFI.Common.Constants;
+using W2K.Common.Application.Validations;
+using W2K.Common.Constants;
 using FluentValidation;
 using Microsoft.AspNetCore.Http;
 
-namespace DFI.Common.Application.Extensions;
+namespace W2K.Common.Application.Extensions;
 
 public static class ValidationExtensions
 {

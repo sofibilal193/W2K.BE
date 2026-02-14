@@ -1,6 +1,6 @@
 #pragma warning disable CA1720 // Identifiers should not contain type names
 
-namespace DFI.Common.Enums;
+namespace W2K.Common.Enums;
 
 public enum LoanStatus
 {

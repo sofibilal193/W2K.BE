@@ -1,7 +1,7 @@
 using Microsoft.FeatureManagement;
 using Microsoft.FeatureManagement.FeatureFilters;
 
-namespace DFI.Common.Infrastructure.AppConfig;
+namespace W2K.Common.Infrastructure.AppConfig;
 
 public static class FeatureManagerExtensions
 {

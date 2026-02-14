@@ -1,8 +1,8 @@
-using DFI.Common.Persistence.Entities;
+using W2K.Common.Persistence.Entities;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DFI.Common.Persistence.Configurations;
+namespace W2K.Common.Persistence.Configurations;
 
 public class EventLogConfiguration : IEntityTypeConfiguration<EventLog>
 {

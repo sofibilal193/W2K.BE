@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Filters;
 
-namespace DFI.Common.Application.Filters;
+namespace W2K.Common.Application.Filters;
 
 // Suppress Sonar warning: S2325 - Methods and properties that don't access instance data should be static
 #pragma warning disable S2325

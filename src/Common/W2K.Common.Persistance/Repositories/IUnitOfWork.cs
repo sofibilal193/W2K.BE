@@ -1,4 +1,4 @@
-namespace DFI.Common.Persistence.Repositories;
+namespace W2K.Common.Persistence.Repositories;
 
 public interface IUnitOfWork : IDisposable
 {

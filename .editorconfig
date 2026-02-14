@@ -1,0 +1,55 @@
+# https://stackoverflow.com/questions/46846128/editorconfig-for-vs-code-not-working
+root = true
+
+[*.cs]
+# Core EditorConfig options
+indent_style = space
+indent_size = 4
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = true
+
+# Roslyn Analyzers rules
+dotnet_diagnostic.CA1000.severity = warning
+dotnet_diagnostic.CA1001.severity = warning
+dotnet_diagnostic.CA1002.severity = warning
+dotnet_diagnostic.CA1003.severity = warning
+dotnet_diagnostic.IDE0160.severity = none
+dotnet_diagnostic.IDE0008.severity = none
+
+# .Net 10 SDK Update related new rules
+dotnet_diagnostic.CA2007.severity = none # Do not directly await a Task
+dotnet_diagnostic.CA1031.severity = none # Do not catch general exception types
+dotnet_diagnostic.CA1062.severity = none # Validate arguments of public methods
+dotnet_diagnostic.CA1305.severity = none # Specify IFormatProvider
+dotnet_diagnostic.CA1848.severity = none # Use the LoggerMessage delegates
+dotnet_diagnostic.CA1873.severity = none # Avoid potentially expensive logging
+dotnet_diagnostic.CA1056.severity = none # URI properties should not be strings
+dotnet_diagnostic.CA1707.severity = none # Identifiers should not contain underscores
+dotnet_diagnostic.CA1307.severity = none # Specify StringComparison for clarity
+dotnet_diagnostic.CA1054.severity = none # URI parameters should not be strings
+dotnet_diagnostic.CA1851.severity = none # Possible multiple enumerations of IEnumerable collection
+dotnet_diagnostic.CA1819.severity = none # Properties should not return arrays
+dotnet_diagnostic.CA2000.severity = none # Dispose objects before losing scope
+dotnet_diagnostic.CA1515.severity = none # Consider making public types internal
+dotnet_diagnostic.CA1034.severity = none # Nested types should not be visible
+dotnet_diagnostic.CA1065.severity = none # Do not raise exceptions in unexpected locations
+dotnet_diagnostic.CA1024.severity = none # Use properties where appropriate
+dotnet_diagnostic.CA1721.severity = none # Property names should not match get methods
+dotnet_diagnostic.CA1863.severity = none # Use 'CompositeFormat'
+dotnet_diagnostic.CA1308.severity = none # Normalize strings to uppercase
+dotnet_diagnostic.CA1711.severity = none # Identifiers should not have incorrect suffix
+dotnet_diagnostic.CA2234.severity = none # Pass System.Uri objects instead of strings
+dotnet_diagnostic.CA1859.severity = none # Use concrete types when possible for improved performance
+
+
+# Sonar reanalyzers rules suppression
+dotnet_diagnostic.T0000.severity = none   #Do not use 'Get' prefix. Just don't.(T0000)
+dotnet_diagnostic.T0043.severity = none   #Do not use primary constructors.(T0043)
+dotnet_diagnostic.T0044.severity = none  # Suppress T0044: Allow "Arrange, Act, Assert" comments in test files
+dotnet_diagnostic.T0046.severity = none  # Move this extension method to different Extensions class.(T0046)
+
+dotnet_diagnostic.IDE0005.severity = warning # Unnecessary using directive
+
+dotnet_diagnostic.S2094.severity = none

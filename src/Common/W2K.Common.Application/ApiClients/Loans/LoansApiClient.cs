@@ -1,10 +1,10 @@
-using DFI.Common.Application.ApiServices;
-using DFI.Common.Application.Commands.Loans;
-using DFI.Common.Application.DTOs.Loans;
-using DFI.Common.Application.Loans;
+using W2K.Common.Application.ApiServices;
+using W2K.Common.Application.Commands.Loans;
+using W2K.Common.Application.DTOs.Loans;
+using W2K.Common.Application.Loans;
 
 #pragma warning disable IDE0130 // Namespace does not match folder structure
-namespace DFI.Common.Application.ApiClients;
+namespace W2K.Common.Application.ApiClients;
 #pragma warning restore IDE0130 // Namespace does not match folder structure
 
 /// <summary>

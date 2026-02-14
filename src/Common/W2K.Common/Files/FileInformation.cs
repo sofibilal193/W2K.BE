@@ -1,4 +1,4 @@
-namespace DFI.Common.Files;
+namespace W2K.Common.Files;
 
 public static class FileInformation
 {

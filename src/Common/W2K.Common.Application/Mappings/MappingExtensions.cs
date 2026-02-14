@@ -1,8 +1,8 @@
 using System.Reflection;
 using AutoMapper;
-using DFI.Common.Entities;
+using W2K.Common.Entities;
 
-namespace DFI.Common.Application.Mappings;
+namespace W2K.Common.Application.Mappings;
 
 public static class MappingExtensions
 {

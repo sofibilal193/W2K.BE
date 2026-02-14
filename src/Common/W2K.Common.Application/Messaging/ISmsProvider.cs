@@ -1,6 +1,6 @@
 using System.Collections.ObjectModel;
 
-namespace DFI.Common.Application.Messaging;
+namespace W2K.Common.Application.Messaging;
 
 public interface ISmsProvider : IDisposable
 {

@@ -1,9 +1,9 @@
 #pragma warning disable IDE0130 // Namespace does not match folder structure
 
-using DFI.Common.Crypto;
-using DFI.Common.Enums;
+using W2K.Common.Crypto;
+using W2K.Common.Enums;
 
-namespace DFI.Common.Application;
+namespace W2K.Common.Application;
 #pragma warning restore IDE0130 // Namespace does not match folder structure
 
 /// <summary>

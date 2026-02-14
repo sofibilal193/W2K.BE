@@ -1,7 +1,7 @@
-using DFI.Common.Application.ApiServices;
-using DFI.Common.Application.Commands.Messaging;
+using W2K.Common.Application.ApiServices;
+using W2K.Common.Application.Commands.Messaging;
 
-namespace DFI.Common.Application.ApiClients;
+namespace W2K.Common.Application.ApiClients;
 
 /// <summary>
 /// API client implementation for communicating with the Messaging service.

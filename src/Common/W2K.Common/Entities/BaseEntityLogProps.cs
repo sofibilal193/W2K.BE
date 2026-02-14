@@ -1,4 +1,4 @@
-namespace DFI.Common.Entities;
+namespace W2K.Common.Entities;
 
 public abstract class BaseEntityLogProps
 {

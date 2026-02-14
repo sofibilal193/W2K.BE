@@ -1,11 +1,11 @@
 using System.Collections.ObjectModel;
-using DFI.Common.Application.Messaging;
+using W2K.Common.Application.Messaging;
 using Microsoft.Extensions.Logging;
 using Twilio.Clients;
 using Twilio.Rest.Api.V2010.Account;
 using Twilio.Types;
 
-namespace DFI.Common.Infrastructure.Messaging;
+namespace W2K.Common.Infrastructure.Messaging;
 
 /// <summary>
 /// An implementation of ISmsProvider using Twilio

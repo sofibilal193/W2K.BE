@@ -1,4 +1,4 @@
-namespace DFI.Common.Utils;
+namespace W2K.Common.Utils;
 
 /// <summary>
 /// Utility class for DateTime operations and timezone conversions.

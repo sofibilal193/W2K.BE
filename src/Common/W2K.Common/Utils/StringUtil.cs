@@ -1,8 +1,8 @@
 using System.Text.RegularExpressions;
 using System.Collections.ObjectModel;
-using DFI.Common.Constants;
+using W2K.Common.Constants;
 
-namespace DFI.Common.Utils;
+namespace W2K.Common.Utils;
 
 public static partial class StringUtil
 {

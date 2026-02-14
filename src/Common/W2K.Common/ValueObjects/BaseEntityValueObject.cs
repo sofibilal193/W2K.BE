@@ -1,6 +1,6 @@
-using DFI.Common.Entities;
+using W2K.Common.Entities;
 
-namespace DFI.Common.ValueObjects;
+namespace W2K.Common.ValueObjects;
 
 public abstract class BaseEntityValueObject : BaseEntityLogProps
 {

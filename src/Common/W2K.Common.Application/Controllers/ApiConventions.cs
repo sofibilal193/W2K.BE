@@ -1,9 +1,9 @@
 // https://docs.microsoft.com/en-us/aspnet/core/web-api/advanced/conventions?view=aspnetcore-6.0#create-web-api-conventions
-using DFI.Common.Application.Validations;
+using W2K.Common.Application.Validations;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ApiExplorer;
 
-namespace DFI.Common.Application.Controllers;
+namespace W2K.Common.Application.Controllers;
 
 #pragma warning disable IDE0060 // Remove unused parameter
 

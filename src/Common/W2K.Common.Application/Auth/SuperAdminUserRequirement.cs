@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Authorization;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 /// <summary>
 /// Authorization requirement that requires a user is SuperAdmin

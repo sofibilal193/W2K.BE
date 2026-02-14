@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace DFI.Common.Models.Lenders;
+namespace W2K.Common.Models.Lenders;
 
 /// <summary>
 /// Represents the response to retrieval of loan offers from a lender.

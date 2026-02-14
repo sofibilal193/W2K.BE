@@ -1,20 +1,20 @@
 using System.Diagnostics.CodeAnalysis;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using DFI.Common.Persistence.Encryption;
-using DFI.Common.Persistence.Security;
-using DFI.Common.Persistence.Utils;
+using W2K.Common.Persistence.Encryption;
+using W2K.Common.Persistence.Security;
+using W2K.Common.Persistence.Utils;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DFI.Common.Persistence.Extensions;
+namespace W2K.Common.Persistence.Extensions;
 
 [ExcludeFromCodeCoverage(Justification = "Excluded from code coverage as we don't need coverage for this class.")]
 public static class PropertyBuilderExtensions
 {
     /// <summary>
     /// Indicates that this field should be encrypted in the data store. Encryption is applied via a value converter in
-    /// DFI.Common.Persistence.Context.BaseDbContext.InitEncryptionValueConverter()
+    /// W2K.Common.Persistence.Context.BaseDbContext.InitEncryptionValueConverter()
     /// </summary>
     /// <param name="propertyBuilder">Property builder API for configuring a Microsoft.EntityFrameworkCore.Metadata.IMutableProperty.</param>
     /// <param name="algorithm">Algorithm to use for encryption. (Currently not implemented)</param>

@@ -1,9 +1,9 @@
 using System.Security.Cryptography;
 using System.Text;
-using DFI.Common.Utils;
+using W2K.Common.Utils;
 using Microsoft.Extensions.Logging;
 
-namespace DFI.Common.Crypto;
+namespace W2K.Common.Crypto;
 
 /// <summary>
 /// An implementation of ICryptoProvider

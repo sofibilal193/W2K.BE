@@ -1,10 +1,10 @@
-using DFI.Common.Extensions;
+using W2K.Common.Extensions;
 using FluentValidation;
 using FluentValidation.Results;
 using MediatR;
 using Microsoft.Extensions.Logging;
 
-namespace DFI.Common.Application.Behaviors;
+namespace W2K.Common.Application.Behaviors;
 
 public class ValidationBehavior<TRequest, TResponse>(IEnumerable<IValidator<TRequest>> validators, ILogger<ValidationBehavior<TRequest, TResponse>> logger)
     : IPipelineBehavior<TRequest, TResponse>

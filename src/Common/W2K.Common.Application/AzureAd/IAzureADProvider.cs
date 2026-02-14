@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.AzureAd;
+namespace W2K.Common.Application.AzureAd;
 
 /// <summary>
 /// Defines operations for managing Azure AD B2C users via Microsoft Graph.

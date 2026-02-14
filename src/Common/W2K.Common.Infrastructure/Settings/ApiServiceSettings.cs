@@ -1,5 +1,5 @@
 #pragma warning disable CA2227 // Collection properties should be read only
-namespace DFI.Common.Infrastructure.Settings;
+namespace W2K.Common.Infrastructure.Settings;
 
 public class ApiServiceSettings
 {

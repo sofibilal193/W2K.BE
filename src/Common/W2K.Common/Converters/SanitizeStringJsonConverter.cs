@@ -1,9 +1,9 @@
 using System.Text.Json;
 using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
-using DFI.Common.Constants;
+using W2K.Common.Constants;
 
-namespace DFI.Common.Converters;
+namespace W2K.Common.Converters;
 
 /// <summary>
 /// Removes malicious characters from strings and trims whitespace when deserializing from JSON.

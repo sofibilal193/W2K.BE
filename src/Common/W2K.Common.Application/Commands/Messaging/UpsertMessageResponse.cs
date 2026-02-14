@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Commands.Messaging;
+namespace W2K.Common.Application.Commands.Messaging;
 
 /// <summary>
 /// Response after creating or updating a message.

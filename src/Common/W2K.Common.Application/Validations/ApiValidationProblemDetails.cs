@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ModelBinding;
 
-namespace DFI.Common.Application.Validations;
+namespace W2K.Common.Application.Validations;
 
 public class ApiValidationProblemDetails(ModelStateDictionary modelState) : ValidationProblemDetails(modelState)
 {

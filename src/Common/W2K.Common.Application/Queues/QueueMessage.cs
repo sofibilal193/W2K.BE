@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Queues;
+namespace W2K.Common.Application.Queues;
 
 public readonly record struct QueueMessage
 {

@@ -1,8 +1,8 @@
-using DFI.Common.Application.Commands.Loans;
-using DFI.Common.Application.DTOs.Loans;
-using DFI.Common.Application.Loans;
+using W2K.Common.Application.Commands.Loans;
+using W2K.Common.Application.DTOs.Loans;
+using W2K.Common.Application.Loans;
 
-namespace DFI.Common.Application.ApiClients;
+namespace W2K.Common.Application.ApiClients;
 
 /// <summary>
 /// API client for communicating with the Loans service.

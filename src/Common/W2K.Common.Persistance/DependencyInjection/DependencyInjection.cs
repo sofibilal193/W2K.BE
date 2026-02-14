@@ -5,14 +5,14 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Configuration;
-using DFI.Common.Persistence.Extensions;
-using DFI.Common.Persistence.Context;
-using DFI.Common.Events;
-using DFI.Common.Persistence.Events;
-using DFI.Common.Persistence.Interfaces;
+using W2K.Common.Persistence.Extensions;
+using W2K.Common.Persistence.Context;
+using W2K.Common.Events;
+using W2K.Common.Persistence.Events;
+using W2K.Common.Persistence.Interfaces;
 using Microsoft.Extensions.Logging;
 
-namespace DFI.Common.Persistence.DependencyInjection;
+namespace W2K.Common.Persistence.DependencyInjection;
 
 public static class DependencyInjection
 {

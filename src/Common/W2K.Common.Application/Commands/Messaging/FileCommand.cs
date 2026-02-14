@@ -1,5 +1,5 @@
 
-namespace DFI.Common.Application.Commands.Messaging;
+namespace W2K.Common.Application.Commands.Messaging;
 
 public record FileCommand
 {

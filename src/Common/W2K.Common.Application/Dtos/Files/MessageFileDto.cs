@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.DTOs.Files;
+namespace W2K.Common.Application.DTOs.Files;
 
 public record MessageFileDto
 {

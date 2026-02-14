@@ -1,10 +1,10 @@
 using System.Collections.ObjectModel;
 using System.Security.Claims;
-using DFI.Common.Application.Auth;
-using DFI.Common.Identity;
-using DFI.Common.Utils;
+using W2K.Common.Application.Auth;
+using W2K.Common.Identity;
+using W2K.Common.Utils;
 
-namespace DFI.Common.Application.Identity;
+namespace W2K.Common.Application.Identity;
 
 public static class ClaimsPrincipalExtensions
 {

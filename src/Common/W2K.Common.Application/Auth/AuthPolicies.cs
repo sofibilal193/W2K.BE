@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public static class AuthPolicies
 {

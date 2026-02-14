@@ -1,4 +1,4 @@
-namespace DFI.Common.Exceptions;
+namespace W2K.Common.Exceptions;
 
 #pragma warning disable S3925 // Update this implementation of 'ISerializable' to conform to the recommended serialization pattern.
 // S3925 says to override GetDataObject to include any instance fields in the serialization process since they are

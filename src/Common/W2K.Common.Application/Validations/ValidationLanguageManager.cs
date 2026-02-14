@@ -1,6 +1,6 @@
 using System.Reflection;
 
-namespace DFI.Common.Application.Validations;
+namespace W2K.Common.Application.Validations;
 
 public class ValidationLanguageManager : FluentValidation.Resources.LanguageManager
 {

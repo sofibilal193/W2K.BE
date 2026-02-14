@@ -3,14 +3,14 @@ using Microsoft.Extensions.Hosting;
 using Azure.Identity;
 using Azure.Storage.Blobs;
 using Azure.Storage.Blobs.Models;
-using DFI.Common.Application.Storage;
-using DFI.Common.Infrastructure.Settings;
-using DFI.Common.Files;
+using W2K.Common.Application.Storage;
+using W2K.Common.Infrastructure.Settings;
+using W2K.Common.Files;
 using System.Collections.ObjectModel;
-using DFI.Common.Application.Extensions;
+using W2K.Common.Application.Extensions;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Infrastructure.Storage;
+namespace W2K.Common.Infrastructure.Storage;
 
 /// <summary>
 /// An implementation of <see cref="IStorageProvider"/> that uses Azure Blob Storage

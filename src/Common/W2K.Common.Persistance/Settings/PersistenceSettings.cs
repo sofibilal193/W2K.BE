@@ -1,4 +1,4 @@
-namespace DFI.Common.Persistence.Settings;
+namespace W2K.Common.Persistence.Settings;
 
 public record PersistenceSettings
 {

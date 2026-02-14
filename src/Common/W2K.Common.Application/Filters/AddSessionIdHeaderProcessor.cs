@@ -3,7 +3,7 @@ using NSwag;
 using NSwag.Generation.Processors;
 using NSwag.Generation.Processors.Contexts;
 
-namespace DFI.Common.Application.Filters;
+namespace W2K.Common.Application.Filters;
 
 // Suppress Sonar warning: S2325 - Methods and properties that don't access instance data should be static
 #pragma warning disable S2325

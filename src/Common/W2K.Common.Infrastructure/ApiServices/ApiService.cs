@@ -1,11 +1,11 @@
 using System.Net;
 using System.Net.Http.Headers;
 using System.Net.Http.Json;
-using DFI.Common.Application.ApiServices;
-using DFI.Common.Application.Auth;
-using DFI.Common.Application.Identity;
-using DFI.Common.Application.Settings;
-using DFI.Common.Exceptions;
+using W2K.Common.Application.ApiServices;
+using W2K.Common.Application.Auth;
+using W2K.Common.Application.Identity;
+using W2K.Common.Application.Settings;
+using W2K.Common.Exceptions;
 using FluentValidation;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Http;
@@ -15,7 +15,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using Microsoft.Identity.Client;
 
-namespace DFI.Common.Infrastructure.ApiServices;
+namespace W2K.Common.Infrastructure.ApiServices;
 
 public class ApiService(
     IHttpClientFactory clientFactory,

@@ -1,0 +1,98 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build services",
+      "command": "dotnet",
+      "type": "shell",
+      "args": [
+        "build",
+        "W2K.BE.sln",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "clear": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+
+    {
+      "label": "Run All Tests",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "test",
+        "W2K.BE.sln",
+        "--collect",
+        "XPlat Code Coverage"
+      ],
+      "group": {
+        "kind": "test",
+        "isDefault": true
+      },
+      "presentation": {
+        "reveal": "always",
+        "clear": true
+      },
+      "problemMatcher": "$msCompile"
+    },
+
+    {
+      "label": "EF Create Migration - Identity",
+      "options": {
+        "cwd": "${workspaceFolder}/src/Services/W2K.Identity"
+      },
+      "type": "shell",
+      "command": "dotnet",
+      "args": [
+        "ef",
+        "migrations",
+        "add",
+        "${input:EFMigrationName}",
+        "--context",
+        "IdentityDbContext",
+        "--output-dir",
+        "Migrations"
+      ],
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+
+    {
+      "label": "EF Create Migration - Common",
+      "options": {
+        "cwd": "${workspaceFolder}/src/Common/W2K.Common.Persistence"
+      },
+      "type": "shell",
+      "command": "dotnet",
+      "args": [
+        "ef",
+        "migrations",
+        "add",
+        "${input:EFMigrationName}",
+        "--context",
+        "CommonDbContext",
+        "--output-dir",
+        "Migrations"
+      ],
+      "presentation": {
+        "reveal": "always"
+      }
+    }
+  ],
+
+  "inputs": [
+    {
+      "id": "EFMigrationName",
+      "description": "EF Migration Name:",
+      "type": "promptString"
+    }
+  ]
+}

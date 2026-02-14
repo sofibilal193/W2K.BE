@@ -1,4 +1,4 @@
-namespace DFI.Common.ValueObjects;
+namespace W2K.Common.ValueObjects;
 
 public abstract class ValueObject
 {

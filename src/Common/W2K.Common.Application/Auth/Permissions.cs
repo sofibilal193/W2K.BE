@@ -1,5 +1,5 @@
 #pragma warning disable CA1724 // Type names should not match namespaces
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public static class Permissions
 {

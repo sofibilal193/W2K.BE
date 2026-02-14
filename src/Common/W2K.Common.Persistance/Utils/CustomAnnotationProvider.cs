@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.SqlServer.Metadata.Internal;
 
-namespace DFI.Common.Persistence.Utils;
+namespace W2K.Common.Persistence.Utils;
 #pragma warning disable EF1001 // Internal EF Core API usage.
 
 [ExcludeFromCodeCoverage(Justification = "Excluded from code coverage as we don't need coverage for this class.")]

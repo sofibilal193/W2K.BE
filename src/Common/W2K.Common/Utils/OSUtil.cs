@@ -1,6 +1,6 @@
 using System.Net;
 
-namespace DFI.Common.Utils;
+namespace W2K.Common.Utils;
 
 /// <summary>
 /// Operating system utility methods.

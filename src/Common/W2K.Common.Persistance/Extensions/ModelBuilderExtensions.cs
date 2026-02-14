@@ -1,9 +1,9 @@
 #pragma warning disable CA1863 // Use 'CompositeFormat'
-using DFI.Common.Persistence.Utils;
+using W2K.Common.Persistence.Utils;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DFI.Common.Persistence.Extensions;
+namespace W2K.Common.Persistence.Extensions;
 
 public static class ModelBuilderExtensions
 {

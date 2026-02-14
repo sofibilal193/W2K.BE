@@ -1,14 +1,14 @@
 using System.Diagnostics.CodeAnalysis;
 using Azure.Identity;
-using DFI.Common.Infrastructure.Settings;
-using DFI.Common.Utils;
+using W2K.Common.Infrastructure.Settings;
+using W2K.Common.Utils;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.AzureAppConfiguration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
-namespace DFI.Common.Infrastructure.AppConfig;
+namespace W2K.Common.Infrastructure.AppConfig;
 
 public static class IHostBuilderExtensions
 {

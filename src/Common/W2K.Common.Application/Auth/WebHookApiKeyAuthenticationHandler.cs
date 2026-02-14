@@ -1,11 +1,11 @@
 using System.Security.Claims;
 using System.Text.Encodings.Web;
-using DFI.Common.Application.Settings;
+using W2K.Common.Application.Settings;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public class WebHookApiKeyAuthenticationHandler(
     IOptionsMonitor<AuthenticationSchemeOptions> options,

@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Messaging;
+namespace W2K.Common.Application.Messaging;
 
 public readonly record struct EmailAddress
 (

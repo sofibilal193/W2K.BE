@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.Settings;
+namespace W2K.Common.Application.Settings;
 
 public enum ApiAuthType
 {

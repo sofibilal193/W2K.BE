@@ -1,14 +1,14 @@
 #pragma warning disable CA1508 // Avoid dead conditional code
 using System.Security.Claims;
-using DFI.Common.Application.Session;
-using DFI.Common.Identity;
+using W2K.Common.Application.Session;
+using W2K.Common.Identity;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Logging;
 using Microsoft.AspNetCore.Http;
-using DFI.Common.Application.Identity;
-using DFI.Common.Crypto;
+using W2K.Common.Application.Identity;
+using W2K.Common.Crypto;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 /// <summary>
 /// Handles validation of session headers and ensures the session is valid.

@@ -1,4 +1,4 @@
-namespace DFI.Common.Entities;
+namespace W2K.Common.Entities;
 
 /// <summary>
 /// Record used for a paginated list of items.

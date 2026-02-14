@@ -1,4 +1,4 @@
-namespace DFI.Common.Application.ApiServices;
+namespace W2K.Common.Application.ApiServices;
 
 public interface IApiService
 {

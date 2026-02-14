@@ -1,9 +1,9 @@
-using DFI.Common.Application.Settings;
+using W2K.Common.Application.Settings;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public class AuthorizationPolicyProvider(IOptions<AuthorizationOptions> options, IOptions<AppSettings> appSettings) : DefaultAuthorizationPolicyProvider(options)
 {

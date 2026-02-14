@@ -1,11 +1,11 @@
 using MediatR;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
-using DFI.Common.Persistence.Interfaces;
-using DFI.Common.Extensions;
+using W2K.Common.Persistence.Interfaces;
+using W2K.Common.Extensions;
 using Microsoft.EntityFrameworkCore;
 
-namespace DFI.Common.Persistence.Behaviors;
+namespace W2K.Common.Persistence.Behaviors;
 
 public class TransactionBehavior<TRequest, TResponse> : IPipelineBehavior<TRequest, TResponse>
     where TRequest : IRequest<TResponse>

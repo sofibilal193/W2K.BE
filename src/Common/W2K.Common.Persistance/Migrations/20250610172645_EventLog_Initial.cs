@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace DFI.Common.Persistence.Migrations
+namespace W2K.Common.Persistence.Migrations
 {
     /// <inheritdoc />
     public partial class EventLog_Initial : Migration

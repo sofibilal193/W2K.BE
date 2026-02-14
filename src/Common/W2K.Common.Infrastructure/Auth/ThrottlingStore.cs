@@ -1,11 +1,11 @@
-using DFI.Common.Application.Auth;
-using DFI.Common.Application.Cacheing;
-using DFI.Common.Application.Settings;
+using W2K.Common.Application.Auth;
+using W2K.Common.Application.Cacheing;
+using W2K.Common.Application.Settings;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using ProtoBuf;
 
-namespace DFI.Common.Infrastructure.Auth;
+namespace W2K.Common.Infrastructure.Auth;
 
 /// <summary>
 /// Default implementation of <see cref="IThrottlingStore"/> backed by <see cref="ICache"/>.

@@ -1,6 +1,6 @@
-using DFI.Common.Entities;
+using W2K.Common.Entities;
 
-namespace DFI.Common.Events;
+namespace W2K.Common.Events;
 
 /// <summary>
 /// Event used when an entity is enabled.

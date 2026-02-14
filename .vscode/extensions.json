@@ -1,0 +1,25 @@
+{
+    "recommendations": [
+        "ms-dotnettools.csharp",
+        "ms-dotnettools.vscode-dotnet-runtime",
+        "ms-dotnettools.csdevkit",
+        "azurite.azurite",
+        "gaoshan0621.csharp-format-usings",
+        "editorconfig.editorconfig",
+        "github.copilot",
+        "github.copilot-chat",
+        "eamodio.gitlens",
+        "reptarsrage.vscode-manage-user-secrets",
+        "jmrog.vscode-nuget-package-manager",
+        "dunn.redis",
+        "davidsekar.redis-xplorer",
+        "josefpihrt-vscode.roslynator",
+        "sonarsource.sonarlint-vscode",
+        "ms-vscode.test-adapter-converter",
+        "hbenl.vscode-test-explorer",
+        "ms-mssql.mssql",
+        "azurite.azurite",
+        "formulahendry.dotnet-test-explorer",
+        "aikidosecurity.aikido"
+    ]
+}

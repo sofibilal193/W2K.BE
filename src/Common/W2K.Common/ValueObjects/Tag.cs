@@ -1,5 +1,5 @@
 
-namespace DFI.Common.ValueObjects;
+namespace W2K.Common.ValueObjects;
 
 public class Tag : ValueObject
 {

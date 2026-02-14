@@ -1,7 +1,7 @@
-using DFI.Common.Application.Identity;
+using W2K.Common.Application.Identity;
 using Microsoft.AspNetCore.Authorization;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public class SuperAdminUserRequirementHandler : AuthorizationHandler<SuperAdminUserRequirement>
 {

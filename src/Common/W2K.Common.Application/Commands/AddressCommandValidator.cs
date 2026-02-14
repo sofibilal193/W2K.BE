@@ -1,7 +1,7 @@
 using FluentValidation;
-using DFI.Common.Application.Extensions;
+using W2K.Common.Application.Extensions;
 
-namespace DFI.Common.Application.Commands;
+namespace W2K.Common.Application.Commands;
 
 public class AddressCommandValidator : AbstractValidator<AddressCommand>
 {

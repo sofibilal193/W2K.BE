@@ -4,7 +4,7 @@ using System.Xml.XPath;
 using System.Xml.Linq;
 using Newtonsoft.Json.Linq;
 
-namespace DFI.Common.Utils;
+namespace W2K.Common.Utils;
 
 public static class LogUtil
 {

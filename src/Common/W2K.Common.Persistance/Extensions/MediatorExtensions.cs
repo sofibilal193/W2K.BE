@@ -1,9 +1,9 @@
 using Microsoft.EntityFrameworkCore;
 using MediatR;
-using DFI.Common.Identity;
-using DFI.Common.Entities;
+using W2K.Common.Identity;
+using W2K.Common.Entities;
 
-namespace DFI.Common.Persistence.Extensions;
+namespace W2K.Common.Persistence.Extensions;
 
 internal static class MediatorExtensions
 {

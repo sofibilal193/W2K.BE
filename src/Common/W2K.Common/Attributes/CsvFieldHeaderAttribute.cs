@@ -1,4 +1,4 @@
-namespace DFI.Common.Attributes;
+namespace W2K.Common.Attributes;
 
 /// <summary>
 /// Attribute to specify custom CSV header name for a property.

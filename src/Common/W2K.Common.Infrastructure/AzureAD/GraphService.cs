@@ -1,7 +1,7 @@
 using Microsoft.Graph;
 using Microsoft.Graph.Models;
 
-namespace DFI.Common.Infrastructure.AzureAd;
+namespace W2K.Common.Infrastructure.AzureAd;
 
 /// <summary>
 /// Default implementation of <see cref="IGraphService"/> backed by <see cref="GraphServiceClient"/>.

@@ -1,10 +1,10 @@
-using DFI.Common.Entities;
-using DFI.Common.Persistence.Extensions;
-using DFI.Common.Persistence.Security;
+using W2K.Common.Entities;
+using W2K.Common.Persistence.Extensions;
+using W2K.Common.Persistence.Security;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 
-namespace DFI.Common.Persistence.Configurations;
+namespace W2K.Common.Persistence.Configurations;
 
 public abstract class BaseEntityConfiguration<TBase> : IEntityTypeConfiguration<TBase>
     where TBase : BaseEntity

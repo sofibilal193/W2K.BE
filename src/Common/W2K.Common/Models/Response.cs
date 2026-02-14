@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace DFI.Common.Models;
+namespace W2K.Common.Models;
 
 /// <summary>
 /// Represents a base response from a service.

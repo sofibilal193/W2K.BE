@@ -1,7 +1,7 @@
 #pragma warning disable CA1724 // Type names should not match namespaces
-using DFI.Common.Events;
+using W2K.Common.Events;
 
-namespace DFI.Common.Persistence.Entities;
+namespace W2K.Common.Persistence.Entities;
 
 public class EventLog
 {

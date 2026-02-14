@@ -1,0 +1,18 @@
+{
+  "omnisharp.useModernNet": true,
+  "editor.defaultFormatter": "ms-dotnettools.csharp",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": false,
+  "sonarlint.rules": {},
+  "dotnet.defaultSolution": "W2K.BE.sln",
+  "dotnet.useLegacyDotnetResolution": false,
+  "sonarlint.connectedMode.project": {
+    "connectionId": "decisionfi",
+    "projectKey": "dentalfinance_W2K.BE"
+  },
+  "chat.tools.terminal.autoApprove": {
+    "dotnet build": true,
+    "dotnet test": true,
+    "git remote": true
+  },
+}

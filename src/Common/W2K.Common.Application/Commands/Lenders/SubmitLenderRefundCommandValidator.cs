@@ -1,7 +1,7 @@
 using FluentValidation;
 
 #pragma warning disable IDE0130 // Namespace does not match folder structure
-namespace DFI.Common.Application.Lenders;
+namespace W2K.Common.Application.Lenders;
 
 public class SubmitLenderRefundCommandValidator : AbstractValidator<SubmitLenderRefundCommand>
 {

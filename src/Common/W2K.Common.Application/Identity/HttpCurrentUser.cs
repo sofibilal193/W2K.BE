@@ -1,8 +1,8 @@
 using System.Collections.ObjectModel;
-using DFI.Common.Identity;
+using W2K.Common.Identity;
 using Microsoft.AspNetCore.Http;
 
-namespace DFI.Common.Application.Identity;
+namespace W2K.Common.Application.Identity;
 
 public class HttpCurrentUser : ICurrentUser
 {

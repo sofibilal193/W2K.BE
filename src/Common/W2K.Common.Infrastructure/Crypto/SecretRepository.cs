@@ -1,7 +1,7 @@
 using Azure.Security.KeyVault.Keys;
 using Azure.Security.KeyVault.Secrets;
 
-namespace DFI.Common.Infrastructure.Crypto;
+namespace W2K.Common.Infrastructure.Crypto;
 
 public class SecretRepository(SecretClient secretClient, KeyClient keyClient) : ISecretRepository
 {

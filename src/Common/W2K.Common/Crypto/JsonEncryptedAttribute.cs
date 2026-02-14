@@ -1,6 +1,6 @@
 using System.Text.Json.Serialization;
 
-namespace DFI.Common.Crypto;
+namespace W2K.Common.Crypto;
 
 [AttributeUsage(AttributeTargets.Property)]
 public sealed class JsonEncryptedAttribute<T> : JsonConverterAttribute

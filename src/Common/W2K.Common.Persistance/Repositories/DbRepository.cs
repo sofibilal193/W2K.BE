@@ -1,10 +1,10 @@
 using System.Linq.Expressions;
-using DFI.Common.Entities;
-using DFI.Common.Exceptions;
-using DFI.Common.Persistence.Extensions;
+using W2K.Common.Entities;
+using W2K.Common.Exceptions;
+using W2K.Common.Persistence.Extensions;
 using Microsoft.EntityFrameworkCore;
 
-namespace DFI.Common.Persistence.Repositories;
+namespace W2K.Common.Persistence.Repositories;
 
 /// <summary>
 /// Base repository for managing entity models configured with DbContext.

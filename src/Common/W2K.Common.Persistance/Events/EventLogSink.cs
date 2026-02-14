@@ -1,11 +1,11 @@
 using System.Collections.Concurrent;
-using DFI.Common.Events;
-using DFI.Common.Persistence.Entities;
-using DFI.Common.Persistence.Interfaces;
+using W2K.Common.Events;
+using W2K.Common.Persistence.Entities;
+using W2K.Common.Persistence.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DFI.Common.Persistence.Events;
+namespace W2K.Common.Persistence.Events;
 
 public class EventLogSink<TContext> : IEventLogSink
     where TContext : IDbContext

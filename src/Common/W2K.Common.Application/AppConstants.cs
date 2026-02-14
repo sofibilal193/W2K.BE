@@ -1,4 +1,4 @@
-namespace DFI.Common.Application;
+namespace W2K.Common.Application;
 
 public static class AppConstants
 {

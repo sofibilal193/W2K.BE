@@ -1,4 +1,4 @@
-namespace DFI.Common.Infrastructure.Cacheing;
+namespace W2K.Common.Infrastructure.Cacheing;
 
 public static class CacheConstants
 {

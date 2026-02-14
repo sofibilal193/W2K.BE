@@ -1,9 +1,9 @@
-using DFI.Common.Crypto;
-using DFI.Common.Enums;
+using W2K.Common.Crypto;
+using W2K.Common.Enums;
 using ProtoBuf;
 
 #pragma warning disable IDE0130 // Namespace does not match folder structure
-namespace DFI.Common.Application.DTOs;
+namespace W2K.Common.Application.DTOs;
 #pragma warning restore IDE0130 // Namespace does not match folder structure
 
 [Serializable]

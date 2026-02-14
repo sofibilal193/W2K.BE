@@ -1,6 +1,6 @@
 #pragma warning disable CA1034 // Nested types should not be visible
 
-namespace DFI.Common.ValueObjects;
+namespace W2K.Common.ValueObjects;
 
 public class Address : ValueObject
 {

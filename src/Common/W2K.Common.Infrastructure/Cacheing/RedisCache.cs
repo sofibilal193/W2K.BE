@@ -1,11 +1,11 @@
 #pragma warning disable CA1849 // Call async methods when in an async method
-using DFI.Common.Application.Cacheing;
+using W2K.Common.Application.Cacheing;
 using Microsoft.Extensions.Caching.Distributed;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using StackExchange.Redis;
 
-namespace DFI.Common.Infrastructure.Cacheing;
+namespace W2K.Common.Infrastructure.Cacheing;
 
 public class RedisCache(IDistributedCache cache, IHostEnvironment env, IConnectionMultiplexer connectionMultiplexer, ILogger<RedisCache> logger) : ICache
 {

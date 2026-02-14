@@ -1,8 +1,8 @@
-using DFI.Common.Infrastructure.Settings;
+using W2K.Common.Infrastructure.Settings;
 using Twilio.Clients;
 using Twilio.Http;
 
-namespace DFI.Common.Infrastructure.Messaging;
+namespace W2K.Common.Infrastructure.Messaging;
 
 public class TwilioClient : ITwilioRestClient
 {

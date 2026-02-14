@@ -1,7 +1,7 @@
 using FluentValidation;
-using DFI.Common.Application.Extensions;
+using W2K.Common.Application.Extensions;
 
-namespace DFI.Common.Application.Commands.Messaging;
+namespace W2K.Common.Application.Commands.Messaging;
 
 public class UpsertMessageCommandValidator : AbstractValidator<UpsertMessageCommand>
 {

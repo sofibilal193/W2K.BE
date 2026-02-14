@@ -4,15 +4,15 @@
 using System.Globalization;
 using System.Text.Json.Serialization;
 using Asp.Versioning;
-using DFI.Common.Application.Auth;
-using DFI.Common.Application.BackgroundServices;
-using DFI.Common.Application.Behaviors;
-using DFI.Common.Application.Extensions;
-using DFI.Common.Application.Filters;
-using DFI.Common.Application.Identity;
-using DFI.Common.Application.Settings;
-using DFI.Common.Application.Validations;
-using DFI.Common.Identity;
+using W2K.Common.Application.Auth;
+using W2K.Common.Application.BackgroundServices;
+using W2K.Common.Application.Behaviors;
+using W2K.Common.Application.Extensions;
+using W2K.Common.Application.Filters;
+using W2K.Common.Application.Identity;
+using W2K.Common.Application.Settings;
+using W2K.Common.Application.Validations;
+using W2K.Common.Identity;
 using FluentValidation;
 using Hellang.Middleware.ProblemDetails;
 using MediatR;
@@ -39,13 +39,13 @@ using HealthChecks.UI.Client;
 using Microsoft.AspNetCore.HttpOverrides;
 using System.Text;
 using Microsoft.AspNetCore.Http;
-using DFI.Common.Crypto;
-using DFI.Common.Application.Crypto;
-using DFI.Common.Extensions;
+using W2K.Common.Crypto;
+using W2K.Common.Application.Crypto;
+using W2K.Common.Extensions;
 using Microsoft.AspNetCore.Mvc;
-using DFI.Common.Application.ApiClients;
+using W2K.Common.Application.ApiClients;
 
-namespace DFI.Common.Application.DependencyInjection;
+namespace W2K.Common.Application.DependencyInjection;
 
 public static class DependencyInjection
 {
@@ -111,7 +111,7 @@ public static class DependencyInjection
         _ = services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
         _ = services.AddTransient(typeof(IPipelineBehavior<,>), typeof(CachePipelineBehavior<,>));
 
-        // add validators from DFI.Common.Application
+        // add validators from W2K.Common.Application
         _ = services.AddValidatorsFromAssemblyContaining(typeof(DependencyInjection));
 #pragma warning restore T0028 // Internal Styling Rule T0028
 

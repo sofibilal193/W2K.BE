@@ -1,4 +1,4 @@
-namespace DFI.Common.Infrastructure.Messaging;
+namespace W2K.Common.Infrastructure.Messaging;
 
 /// <summary>
 /// Exception thrown when a short URL key exists logically but has expired (e.g. underlying cache entry TTL elapsed).

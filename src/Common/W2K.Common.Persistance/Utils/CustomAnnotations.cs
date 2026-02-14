@@ -1,6 +1,6 @@
 using System.Diagnostics.CodeAnalysis;
 
-namespace DFI.Common.Persistence.Utils;
+namespace W2K.Common.Persistence.Utils;
 
 [ExcludeFromCodeCoverage(Justification = "Excluded from code coverage as we don't need coverage for this class.")]
 public static class CustomAnnotations

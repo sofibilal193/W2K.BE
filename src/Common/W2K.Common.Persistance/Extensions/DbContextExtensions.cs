@@ -1,9 +1,9 @@
-using DFI.Common.Entities;
-using DFI.Common.Identity;
-using DFI.Common.ValueObjects;
+using W2K.Common.Entities;
+using W2K.Common.Identity;
+using W2K.Common.ValueObjects;
 using Microsoft.EntityFrameworkCore;
 
-namespace DFI.Common.Persistence.Extensions;
+namespace W2K.Common.Persistence.Extensions;
 
 public static class DbContextExtensions
 {

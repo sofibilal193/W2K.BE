@@ -6,10 +6,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using MediatR;
-using DFI.Common.Persistence.Settings;
-using DFI.Common.Persistence.Extensions;
+using W2K.Common.Persistence.Settings;
+using W2K.Common.Persistence.Extensions;
 
-namespace DFI.Common.Persistence.Context;
+namespace W2K.Common.Persistence.Context;
 
 [ExcludeFromCodeCoverage(Justification = "Abstract class does not need unit tests.")]
 public abstract class DesignTimeDbContextFactoryBase<TContext> :

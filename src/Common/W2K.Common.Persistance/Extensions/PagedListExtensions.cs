@@ -1,7 +1,7 @@
-using DFI.Common.Entities;
+using W2K.Common.Entities;
 using Microsoft.EntityFrameworkCore;
 
-namespace DFI.Common.Persistence.Extensions;
+namespace W2K.Common.Persistence.Extensions;
 
 public static class PagedListExtensions
 {

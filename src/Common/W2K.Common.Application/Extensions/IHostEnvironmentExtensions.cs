@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Hosting;
 
-namespace DFI.Common.Application.Extensions;
+namespace W2K.Common.Application.Extensions;
 
 public static class IHostEnvironmentExtensions
 {

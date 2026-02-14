@@ -4,9 +4,9 @@ using System.Text.Encodings.Web;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
-using DFI.Common.Application.Session;
+using W2K.Common.Application.Session;
 
-namespace DFI.Common.Application.Auth;
+namespace W2K.Common.Application.Auth;
 
 public class SessionAuthenticationHandler(
    IOptionsMonitor<AuthenticationSchemeOptions> options,

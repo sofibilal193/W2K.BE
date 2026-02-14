@@ -1,7 +1,7 @@
 using System.Net.Http.Headers;
-using DFI.Common.Utils;
+using W2K.Common.Utils;
 
-namespace DFI.Common.Infrastructure.Utils;
+namespace W2K.Common.Infrastructure.Utils;
 
 public static class HttpUtil
 {

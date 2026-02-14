@@ -3,7 +3,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.FeatureManagement;
 
-namespace DFI.Common.Infrastructure.Logging;
+namespace W2K.Common.Infrastructure.Logging;
 
 public class HttpClientLoggingHandler(IHostEnvironment env, ILogger<HttpClientLoggingHandler> logger, IFeatureManager featureManager) : DelegatingHandler
 {

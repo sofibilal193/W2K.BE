@@ -1,8 +1,8 @@
-namespace DFI.Common.Constants;
+namespace W2K.Common.Constants;
 
 public static class LendersConstants
 {
-    public static readonly string ApplicationName = "DFI.Lenders";
+    public static readonly string ApplicationName = "W2K.Lenders";
 
     public static readonly int DefaultCacheExpirationMinutes = 30;
 

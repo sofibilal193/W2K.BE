@@ -2,7 +2,7 @@ using System.Reflection;
 using FluentValidation;
 using FluentValidation.Results;
 
-namespace DFI.Common.Application.Validations;
+namespace W2K.Common.Application.Validations;
 
 public static class ValidationCodes
 {

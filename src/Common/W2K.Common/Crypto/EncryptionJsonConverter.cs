@@ -1,10 +1,10 @@
 using System.ComponentModel;
 using System.Text.Json;
 using System.Text.Json.Serialization;
-using DFI.Common.Extensions;
+using W2K.Common.Extensions;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace DFI.Common.Crypto;
+namespace W2K.Common.Crypto;
 
 public class EncryptionJsonConverter<T> : JsonConverter<T?>
 {

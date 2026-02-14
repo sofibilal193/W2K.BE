@@ -1,7 +1,7 @@
-using DFI.Common.Persistence.Settings;
+using W2K.Common.Persistence.Settings;
 using Microsoft.Extensions.Configuration;
 
-namespace DFI.Common.Persistence.Extensions;
+namespace W2K.Common.Persistence.Extensions;
 
 public static class ConfigurationExtensions
 {

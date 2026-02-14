@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.FeatureManagement.FeatureFilters;
 
-namespace DFI.Common.Infrastructure.AppConfig;
+namespace W2K.Common.Infrastructure.AppConfig;
 
 public class OfficeTargetingContextAccessor(IHttpContextAccessor httpContextAccessor) : ITargetingContextAccessor
 {

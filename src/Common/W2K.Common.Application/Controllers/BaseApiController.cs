@@ -1,7 +1,7 @@
-using DFI.Common.Application.Auth;
-using DFI.Common.Application.Filters;
-using DFI.Common.Application.Settings;
-using DFI.Common.Identity;
+using W2K.Common.Application.Auth;
+using W2K.Common.Application.Filters;
+using W2K.Common.Application.Settings;
+using W2K.Common.Identity;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Cors;
@@ -11,7 +11,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
-namespace DFI.Common.Application.Controllers;
+namespace W2K.Common.Application.Controllers;
 
 #pragma warning disable CS9264 // Non-nullable property must contain a non-null value when exiting constructor
 

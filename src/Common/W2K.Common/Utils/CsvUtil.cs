@@ -1,7 +1,7 @@
 using System.Reflection;
-using DFI.Common.Attributes;
+using W2K.Common.Attributes;
 
-namespace DFI.Common.Utils;
+namespace W2K.Common.Utils;
 
 /// <summary>
 /// Utility class for CSV file operations.

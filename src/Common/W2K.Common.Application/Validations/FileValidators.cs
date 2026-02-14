@@ -1,6 +1,6 @@
 using Microsoft.AspNetCore.Http;
 
-namespace DFI.Common.Application.Validations;
+namespace W2K.Common.Application.Validations;
 
 public static class FileValidators
 {

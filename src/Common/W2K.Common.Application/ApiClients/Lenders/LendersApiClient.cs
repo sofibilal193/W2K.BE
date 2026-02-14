@@ -1,8 +1,8 @@
-using DFI.Common.Application.ApiServices;
-using DFI.Common.Application.Lenders;
-using DFI.Common.Models.Lenders;
+using W2K.Common.Application.ApiServices;
+using W2K.Common.Application.Lenders;
+using W2K.Common.Models.Lenders;
 
-namespace DFI.Common.Application.ApiClients;
+namespace W2K.Common.Application.ApiClients;
 
 /// <summary>
 /// API client implementation for communicating with the Lenders service.

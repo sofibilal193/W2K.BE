@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace DFI.Common.Utils;
+namespace W2K.Common.Utils;
 
 /// <summary>
 /// Utility class for applying sorting operations to collections and queries.

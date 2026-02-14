@@ -1,12 +1,12 @@
 using System.Security.Claims;
-using DFI.Common.Application.Auth;
-using DFI.Common.Application.Identity;
+using W2K.Common.Application.Auth;
+using W2K.Common.Application.Identity;
 using Microsoft.ApplicationInsights.Channel;
 using Microsoft.ApplicationInsights.DataContracts;
 using Microsoft.ApplicationInsights.Extensibility;
 using Microsoft.AspNetCore.Http;
 
-namespace DFI.Common.Infrastructure.AppInsights;
+namespace W2K.Common.Infrastructure.AppInsights;
 
 public class AppInsightsInitializer(IHttpContextAccessor httpContextAccessor) : ITelemetryInitializer
 {

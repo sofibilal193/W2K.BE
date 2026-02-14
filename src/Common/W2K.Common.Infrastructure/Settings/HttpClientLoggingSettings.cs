@@ -1,6 +1,6 @@
-using DFI.Common.Utils;
+using W2K.Common.Utils;
 
-namespace DFI.Common.Infrastructure.Settings;
+namespace W2K.Common.Infrastructure.Settings;
 
 public record HttpClientLoggingSettings
 {

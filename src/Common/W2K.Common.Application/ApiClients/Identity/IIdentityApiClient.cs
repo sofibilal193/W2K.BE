@@ -1,6 +1,6 @@
-using DFI.Common.Application.DTOs;
+using W2K.Common.Application.DTOs;
 
-namespace DFI.Common.Application.ApiClients;
+namespace W2K.Common.Application.ApiClients;
 
 /// <summary>
 /// API client for communicating with the Identity service.
