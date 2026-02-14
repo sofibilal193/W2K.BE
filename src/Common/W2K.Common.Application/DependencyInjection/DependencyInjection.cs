@@ -624,7 +624,7 @@ public static class DependencyInjection
         _ = services.AddSingleton<IIdentityApiClient, IdentityApiClient>();
         _ = services.AddSingleton<ILendersApiClient, LendersApiClient>();
         _ = services.AddSingleton<IConfigApiClient, ConfigApiClient>();
-        _ = services.AddScoped<IFilesApiClient, FilesApiClient>();
+        _ = services.AddSingleton<IFilesApiClient, FilesApiClient>();
         _ = services.AddSingleton<ILoansApiClient, LoansApiClient>();
         _ = services.AddSingleton<IUrlShortenerApiClient, UrlShortenerApiClient>();
         _ = services.AddSingleton<IMessagingApiClient, MessagingApiClient>();

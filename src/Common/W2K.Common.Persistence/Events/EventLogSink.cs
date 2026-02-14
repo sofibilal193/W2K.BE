@@ -7,16 +7,11 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace W2K.Common.Persistence.Events;
 
-public class EventLogSink<TContext> : IEventLogSink
+public class EventLogSink<TContext>(IServiceProvider? serviceProvider) : IEventLogSink
     where TContext : IDbContext
 {
-    private readonly IServiceProvider? _serviceProvider;
+    private readonly IServiceProvider? _serviceProvider = serviceProvider;
     private readonly ConcurrentQueue<EventLogNotification> _events = new();
-
-    public EventLogSink(IServiceProvider? serviceProvider)
-    {
-        _serviceProvider = serviceProvider;
-    }
 
     public Task QueueEventAsync(EventLogNotification eventNotification, CancellationToken cancel = default)
     {
