@@ -1,0 +1,50 @@
+using DFI.Common.Application.Auth;
+using DFI.Common.Application.Filters;
+using DFI.Common.Application.Settings;
+using DFI.Common.Identity;
+using MediatR;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Cors;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
+
+namespace DFI.Common.Application.Controllers;
+
+#pragma warning disable CS9264 // Non-nullable property must contain a non-null value when exiting constructor
+
+[ApiController]
+[Authorize(AuthPolicies.OfficeUser)]
+[EnableCors]
+[ApiConventionType(typeof(ApiConventions))]
+[ServiceFilter(typeof(ValidateBadRequestCommandFilter))]
+// https://github.com/AzureAD/microsoft-identity-web/wiki/web-apis#verification-of-scopes-or-app-roles-in-the-controller-actions
+public abstract class BaseApiController : ControllerBase
+{
+    protected const string RoutePrefix = "~/api/v{version:apiVersion}/";
+
+    private ILogger? _logger;
+
+    protected static string? OperationId => System.Diagnostics.Activity.Current?.RootId;
+
+    protected IMediator Mediator => field ??= HttpContext.RequestServices.GetRequiredService<IMediator>();
+
+    protected IHostEnvironment HostEnv => field ??= HttpContext.RequestServices.GetRequiredService<IHostEnvironment>();
+
+    protected AppSettings AppSettings => field ??= HttpContext.RequestServices.GetRequiredService<IOptionsMonitor<AppSettings>>().CurrentValue;
+
+    protected ICurrentUser CurrentUser => field ??= HttpContext.RequestServices.GetRequiredService<ICurrentUser>();
+
+    protected string BaseUrl => string.Format("{0}://{1}", Request.Scheme, Request.Host);
+
+    protected ILogger GetLogger<T>()
+        where T : class
+    {
+        return _logger ??= HttpContext.RequestServices.GetRequiredService<ILogger<T>>();
+    }
+
+}
+
+#pragma warning restore CS9264 // Non-nullable property must contain a non-null value when exiting constructor

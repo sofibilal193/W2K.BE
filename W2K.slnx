@@ -1,6 +1,0 @@
-<Solution>
-  <Project Path="src/Services/W2K.Config/W2K.Config.csproj" />
-  <Project Path="src/Services/W2K.Files/W2K.Files.csproj" />
-  <Project Path="src/Services/W2K.Identity/W2K.Identity.csproj" />
-  <Project Path="src/Services/W2K.Mono/W2K.Mono.csproj" />
-</Solution>
