@@ -230,8 +230,11 @@ public static class DependencyInjection
                 AsyncTimeout = _settings.RedisCacheSettings.AsyncTimeoutMS
             };
 
-            var credential = new DefaultAzureCredential();
-            _ = configurationOptions.ConfigureForAzureWithTokenCredentialAsync(credential).GetAwaiter().GetResult();
+            if (!env.IsDevelopment())
+            {
+                var credential = new DefaultAzureCredential();
+                _ = configurationOptions.ConfigureForAzureWithTokenCredentialAsync(credential).GetAwaiter().GetResult();
+            }
 
             // Register ConnectionMultiplexer as a singleton with proper authentication
             _ = services.AddSingleton<IConnectionMultiplexer>(x =>

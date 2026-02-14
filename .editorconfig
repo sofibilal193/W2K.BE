@@ -53,3 +53,10 @@ dotnet_diagnostic.T0046.severity = none  # Move this extension method to differe
 dotnet_diagnostic.IDE0005.severity = warning # Unnecessary using directive
 
 dotnet_diagnostic.S2094.severity = none
+dotnet_diagnostic.T0026.severity = none
+dotnet_diagnostic.T0010.severity = none
+dotnet_diagnostic.T0001.severity = none
+
+dotnet_diagnostic.IDE0058.severity = none
+dotnet_diagnostic.S124.severity = none
+dotnet_diagnostic.CA1861.severity = none

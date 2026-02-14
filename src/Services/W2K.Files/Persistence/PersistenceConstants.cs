@@ -2,7 +2,7 @@ namespace W2K.Files.Persistence;
 
 public static class PersistenceConstants
 {
-    public const string DefaultTableSchema = "w2k";
+    public const string DefaultTableSchema = "files";
 
     public const string DefaultIdColumn = "Id";
 

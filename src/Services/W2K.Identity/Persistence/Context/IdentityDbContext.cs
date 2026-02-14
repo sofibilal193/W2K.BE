@@ -3,7 +3,6 @@ using W2K.Common.Identity;
 using W2K.Common.Persistence.Context;
 using W2K.Common.Persistence.Settings;
 using W2K.Identity.Entities;
-using W2K.Identity.Persistence.Configurations;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;

@@ -44,6 +44,50 @@
     },
 
     {
+      "label": "EF Create Migration - Config",
+      "options": {
+        "cwd": "${workspaceFolder}/src/Services/W2K.Config"
+      },
+      "type": "shell",
+      "command": "dotnet",
+      "args": [
+        "ef",
+        "migrations",
+        "add",
+        "${input:EFMigrationName}",
+        "--context",
+        "ConfigDbContext",
+        "--output-dir",
+        "Migrations"
+      ],
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+
+    {
+      "label": "EF Create Migration - Files",
+      "options": {
+        "cwd": "${workspaceFolder}/src/Services/W2K.Files"
+      },
+      "type": "shell",
+      "command": "dotnet",
+      "args": [
+        "ef",
+        "migrations",
+        "add",
+        "${input:EFMigrationName}",
+        "--context",
+        "FilesDbContext",
+        "--output-dir",
+        "Migrations"
+      ],
+      "presentation": {
+        "reveal": "always"
+      }
+    },
+
+    {
       "label": "EF Create Migration - Identity",
       "options": {
         "cwd": "${workspaceFolder}/src/Services/W2K.Identity"

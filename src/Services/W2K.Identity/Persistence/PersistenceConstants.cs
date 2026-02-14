@@ -2,7 +2,7 @@ namespace W2K.Identity.Persistence;
 
 public static class PersistenceConstants
 {
-    public const string DefaultTableSchema = "w2k";
+    public const string DefaultTableSchema = "id";
 
     public const string DefaultIdColumn = "Id";
 
