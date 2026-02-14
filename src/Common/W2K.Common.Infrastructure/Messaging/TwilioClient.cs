@@ -15,7 +15,7 @@ public class TwilioClient : ITwilioRestClient
     public TwilioClient(TwilioSettings settings, System.Net.Http.HttpClient httpClient)
     {
         // customize the underlying HttpClient
-        httpClient.DefaultRequestHeaders.Add("X-Client-App", "DFI");
+        httpClient.DefaultRequestHeaders.Add("X-Client-App", "W2K");
         _innerClient = new TwilioRestClient(
             settings.AccountSid,
             settings.AuthToken,

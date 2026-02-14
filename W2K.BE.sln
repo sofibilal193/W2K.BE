@@ -13,7 +13,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2K.Common.Application", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2K.Common.Infrastructure", "src\Common\W2K.Common.Infrastructure\W2K.Common.Infrastructure.csproj", "{B9B62575-3F71-4399-A88C-6133E75C06C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2K.Common.Persistance", "src\Common\W2K.Common.Persistance\W2K.Common.Persistance.csproj", "{0C26422B-258B-4FA5-89B7-9E86D6BA8A76}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "W2K.Common.Persistence", "src\Common\W2K.Common.Persistence\W2K.Common.Persistence.csproj", "{0C26422B-258B-4FA5-89B7-9E86D6BA8A76}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{984BB9B3-3FA3-BE33-9484-CAC21695A33C}"
 EndProject

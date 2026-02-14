@@ -1,8 +1,8 @@
-using W2K.Common.Entities;
 using W2K.Common.Persistence.Extensions;
 using W2K.Common.Persistence.Security;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
+using W2K.Common.Entities;
 
 namespace W2K.Common.Persistence.Configurations;
 
