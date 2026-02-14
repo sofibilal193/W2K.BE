@@ -1,0 +1,78 @@
+[
+    {
+        "Type": "SuperAdmin",
+        "Category": "SuperAdmin",
+        "Code": "sysadmin",
+        "Name": "System Admin",
+        "LegalName": "DecisionFi",
+        "Phone": "(000) 000-0000",
+        "Website": "http://www.decisionfi.com",
+        "TaxId": "123456789",
+        "BusinessType": "LLC",
+        "Address": {
+            "Type": "Primary",
+            "Address1": "2735 S. Alma School Rd",
+            "Address2": "Ste 1",
+            "City": "Chandler",
+            "State": "AZ",
+            "ZipCode": "85286"
+        }
+    },
+    {
+        "Type": "Merchant",
+        "Category": "Development",
+        "Code": "devoffice",
+        "Name": "Dev Office",
+        "LegalName": "Dev Office LLC",
+        "Phone": "(000) 000-0001",
+        "Website": "http://www.decisionfi.com",
+        "TaxId": "123456780",
+        "BusinessType": "LLC",
+        "Address": {
+            "Type": "Primary",
+            "Address1": "2735 S. Alma School Rd",
+            "Address2": "Ste 1",
+            "City": "Chandler",
+            "State": "AZ",
+            "ZipCode": "85286"
+        }
+    },
+    {
+        "Type": "Lender",
+        "Category": null,
+        "Code": "covered",
+        "Name": "Covered Care",
+        "LegalName": "Covered Care",
+        "Phone": "(888) 589-5444",
+        "Website": "https://www.coveredcare.com",
+        "TaxId": "000000000",
+        "BusinessType": "LLC",
+        "Address": {
+            "Type": "Primary",
+            "Address1": "5050 Quorum Dr",
+            "Address2": "Ste 250",
+            "City": "Dallas",
+            "State": "TX",
+            "ZipCode": "75254"
+        }
+    },
+    {
+        "Type": "Lender",
+        "Category": null,
+        "Code": "sweetpay",
+        "Name": "SweetPay",
+        "LegalName": "SweetPay, LLC",
+        "Phone": "(833) 677-9338",
+        "Website": "https://sweetwaytopay.com",
+        "TaxId": "000000000",
+        "BusinessType": "LLC",
+        "Address": {
+            "Type": "Primary",
+            "Address1": "2421 Ivy Road",
+            "Address2": "Ste 301",
+            "City": "Charlottesville",
+            "State": "VA",
+            "ZipCode": "22903"
+        }
+    }
+]

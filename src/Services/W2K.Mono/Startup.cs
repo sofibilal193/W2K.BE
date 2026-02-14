@@ -3,14 +3,10 @@ using W2K.Common.Infrastructure.AppConfig;
 using W2K.Common.Infrastructure.DependencyInjection;
 using W2K.Common.Persistence.DependencyInjection;
 using W2K.Config.DependencyInjection;
-using W2K.Files.DependencyInjection;
-using W2K.Funding.DependencyInjection;
-using W2K.Identity.DependencyInjection;
-using W2K.Lenders.DependencyInjection;
-using W2K.Loans.DependencyInjection;
-using W2K.Messaging.DependencyInjection;
 using Microsoft.ApplicationInsights.Extensibility;
 using W2K.WebApp;
+using W2K.Identity.DependencyInjection;
+using W2K.Files.DependencyInjection;
 
 namespace W2K.Mono;
 
@@ -59,10 +55,6 @@ public class Startup
         _ = app.UseIdentityApi();
         _ = app.UseFilesApi();
         _ = app.UseConfigApi();
-        _ = app.UseLoansApi();
-        _ = app.UseFundingApi();
-        _ = app.UseMessagingApi();
-        _ = app.UseLendersApi();
     }
 }
 

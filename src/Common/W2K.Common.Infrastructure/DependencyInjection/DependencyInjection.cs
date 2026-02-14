@@ -231,7 +231,7 @@ public static class DependencyInjection
             };
 
             var credential = new DefaultAzureCredential();
-            configurationOptions.ConfigureForAzureWithTokenCredentialAsync(credential).GetAwaiter().GetResult();
+            _ = configurationOptions.ConfigureForAzureWithTokenCredentialAsync(credential).GetAwaiter().GetResult();
 
             // Register ConnectionMultiplexer as a singleton with proper authentication
             _ = services.AddSingleton<IConnectionMultiplexer>(x =>

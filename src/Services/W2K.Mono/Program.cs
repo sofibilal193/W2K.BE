@@ -3,6 +3,9 @@ using W2K.Common.Persistence.Context;
 using W2K.Common.Persistence.Extensions;
 using W2K.Config.Persistence.Context;
 using W2K.Config.Repositories;
+using W2K.Files.Persistence.Context;
+using W2K.Identity.Persistence.Context;
+using W2K.Identity.Repositories;
 
 namespace W2K.Mono;
 
@@ -49,8 +52,6 @@ public static class Program
                 })
             .MigrateDbContext<FilesDbContext>(
                 (_, _) => { })
-            .MigrateDbContext<MessagingDbContext>(
-                (_, _) => { })
             .MigrateDbContext<ConfigDbContext>(
                 (context, services) =>
                 {
@@ -60,21 +61,6 @@ public static class Program
                     var officeConfigFieldValues = services.GetRequiredService<IOfficeConfigFieldValueRepository>();
                     var unitOfWork = new ConfigUnitOfWork(context, configRepo, officeConfigFields, officeConfigFieldValues);
                     ConfigItemsDbSeed.SeedAsync(unitOfWork, loggerFactory.CreateLogger("ConfigItemsDbSeed")).Wait();
-                })
-            .MigrateDbContext<FundingDbContext>(
-                (_, _) => { })
-            .MigrateDbContext<LoansDbContext>(
-                (_, _) => { })
-            .MigrateDbContext<LendersDbContext>(
-                (context, services) =>
-                {
-                    var loggerFactory = services.GetRequiredService<ILoggerFactory>();
-                    var lenderOfficesRepo = services.GetRequiredService<ILenderOfficeRepository>();
-                    var lenderProgramsRepo = services.GetRequiredService<ILenderProgramRepository>();
-                    var unitOfWork = new LendersUnitOfWork(context, lenderProgramsRepo, lenderOfficesRepo);
-                    LendersDbSeed
-                        .SeedAsync(unitOfWork, loggerFactory.CreateLogger("LendersDbSeed"))
-                        .Wait();
                 })
             .Run();
     }

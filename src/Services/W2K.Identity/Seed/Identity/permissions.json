@@ -1,0 +1,236 @@
+[
+    {
+        "Category": "RoleManagement",
+        "Name": "ViewRoles",
+        "Description": "This permission gives access to view roles for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "RoleManagement",
+        "Name": "UpdateRole",
+        "Description": "This permission gives access to add/update a custom role for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "RoleManagement",
+        "Name": "DeleteRole",
+        "Description": "This permission gives access to delete a custom role for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "UserManagement",
+        "Name": "ViewUsers",
+        "Description": "This permission gives access to view users for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "UserManagement",
+        "Name": "UpdateUser",
+        "Description": "This permission gives access to add/update a user for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "UserManagement",
+        "Name": "DeleteUser",
+        "Description": "This permission gives access to delete a user for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "SuperAdminUserManagement",
+        "Name": "ViewSuperAdminUsers",
+        "Description": "This permission gives access to view SuperAdmin users.",
+        "Type": "Internal"
+    },
+    {
+        "Category": "SuperAdminUserManagement",
+        "Name": "UpdateSuperAdminUsers",
+        "Description": "This permission gives access to create/update SuperAdmin users.",
+        "Type": "Internal"
+    },
+    {
+        "Category": "SuperAdminUserManagement",
+        "Name": "DeleteSuperAdminUsers",
+        "Description": "This permission gives access to delete SuperAdmin users.",
+        "Type": "Internal"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "ViewOffices",
+        "Description": "This permission gives access to view offices and office information.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "UpdateOffice",
+        "Description": "This permission gives access to add/update office information.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "DeleteOffice",
+        "Description": "This permission gives access to delete an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "ViewOfficeBankAccount",
+        "Description": "This permission gives access to view bank account information for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "UpdateOfficeBankAccount",
+        "Description": "This permission gives access to add/update bank account information for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "DeleteOfficeBankAccount",
+        "Description": "This permission gives access to delete bank account information for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "ViewOfficeOwner",
+        "Description": "This permission gives access to view owner information for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "UpdateOfficeOwner",
+        "Description": "This permission gives access to add/update owner information for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "DeleteOfficeOwner",
+        "Description": "This permission gives access to delete owner information for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "ViewOfficeFiles",
+        "Description": "This permission gives access to view files for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "UploadOfficeFiles",
+        "Description": "This permission gives access to upload files for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "DeleteOfficeFiles",
+        "Description": "This permission gives access to delete files for an office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "ViewOfficeLenders",
+        "Description": "This permission gives access to view lenders for an office.",
+        "Type": "Internal"
+    },
+    {
+        "Category": "OfficeManagement",
+        "Name": "UpdateOfficeLenders",
+        "Description": "This permission gives access to update lenders for an office.",
+        "Type": "Internal"
+    },
+    {
+        "Category": "LoanAppManagement",
+        "Name": "ViewLoanApps",
+        "Description": "This permission gives access to view loan applications.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "LoanAppManagement",
+        "Name": "SubmitLoanApp",
+        "Description": "This permission gives access to submit a loan application to a lender.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "LoanAppManagement",
+        "Name": "UpdateLoanApp",
+        "Description": "This permission gives access to update a loan application.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "LoanAppManagement",
+        "Name": "ArchiveLoanApp",
+        "Description": "This permission gives access to archive a loan application.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "LoanManagement",
+        "Name": "ViewLoans",
+        "Description": "This permission gives access to view loans.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "LoanManagement",
+        "Name": "UpdateLoan",
+        "Description": "This permission gives access to update loan information.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "LoanManagement",
+        "Name": "ArchiveLoan",
+        "Description": "This permission gives access to archive a loan.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "LoanManagement",
+        "Name": "ViewFunding",
+        "Description": "This permission gives access to view loan funding information.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "RefundManagement",
+        "Name": "ViewRefunds",
+        "Description": "This permission gives access to view refund information.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "RefundManagement",
+        "Name": "SubmitRefund",
+        "Description": "This permission gives access to submit refund requests.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "MessageManagement",
+        "Name": "UpdateThread",
+        "Description": "This permission allows users to archive message threads.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "MessageManagement",
+        "Name": "ViewMessages",
+        "Description": "This permission allows users to view messages.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "MessageManagement",
+        "Name": "UpdateMessage",
+        "Description": "This permission allows users to create, edit, and delete their own messages.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "MessageManagement",
+        "Name": "DeleteMessage",
+        "Description": "This permission allows users to delete all messages for their office.",
+        "Type": "Standard"
+    },
+    {
+        "Category": "FundingManagement",
+        "Name": "EnrollFunding",
+        "Description": "This permission allows users to enroll an office with the funding service.",
+        "Type": "Internal"
+    },
+    {
+        "Category": "FundingManagement",
+        "Name": "FundOffices",
+        "Description": "This permission allows users to fund office transactions.",
+        "Type": "Internal"
+    }
+]
