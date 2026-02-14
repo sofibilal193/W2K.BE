@@ -2,7 +2,7 @@ namespace W2K.Common.Persistence;
 
 public static class PersistenceConstants
 {
-    public const string DefaultAppName = "DFI.WebApp";
+    public const string DefaultAppName = "W2K.WebApp";
 
     public const string DefaultConnectionName = "DbConnectionString";
 
