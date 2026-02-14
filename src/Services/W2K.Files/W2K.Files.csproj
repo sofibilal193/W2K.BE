@@ -2,8 +2,41 @@
 
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
+    <DebugType>portable</DebugType>
+    <PreserveCompilationContext>true</PreserveCompilationContext>
+    <LangVersion>preview</LangVersion>
+    <AnalysisLevel>preview-All</AnalysisLevel>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <RuntimeIdentifiers>linux-x64</RuntimeIdentifiers>
+    <UserSecretsId>DecisionFi</UserSecretsId>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="SonarAnalyzer.CSharp" Version="10.19.0.132793">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="SonarAnalyzer.CSharp.Styling" Version="10.19.0.132793">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="10.0.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <Publish>true</Publish>
+    </PackageReference>
+
+    <ProjectReference Include="../../Common/W2K.Common/W2K.Common.csproj" />
+    <ProjectReference Include="../../Common/W2K.Common.Application/W2K.Common.Application.csproj" />
+    <ProjectReference Include="../../Common/W2K.Common.Persistence/W2K.Common.Persistence.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Using Include="MediatR" />
+  </ItemGroup>
 
 </Project>
