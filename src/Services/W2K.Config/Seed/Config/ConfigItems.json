@@ -1,0 +1,718 @@
+[
+  {
+    "Type": "States",
+    "Value": "AL",
+    "Name": "Alabama",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "States",
+    "Value": "AK",
+    "Name": "Alaska",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "States",
+    "Value": "AZ",
+    "Name": "Arizona",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "States",
+    "Value": "AR",
+    "Name": "Arkansas",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "States",
+    "Value": "CA",
+    "Name": "California",
+    "Description": null,
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "States",
+    "Value": "CO",
+    "Name": "Colorado",
+    "Description": null,
+    "DisplayOrder": 6
+  },
+  {
+    "Type": "States",
+    "Value": "CT",
+    "Name": "Connecticut",
+    "Description": null,
+    "DisplayOrder": 7
+  },
+  {
+    "Type": "States",
+    "Value": "DE",
+    "Name": "Delaware",
+    "Description": null,
+    "DisplayOrder": 8
+  },
+  {
+    "Type": "States",
+    "Value": "FL",
+    "Name": "Florida",
+    "Description": null,
+    "DisplayOrder": 9
+  },
+  {
+    "Type": "States",
+    "Value": "GA",
+    "Name": "Georgia",
+    "Description": null,
+    "DisplayOrder": 10
+  },
+  {
+    "Type": "States",
+    "Value": "HI",
+    "Name": "Hawaii",
+    "Description": null,
+    "DisplayOrder": 11
+  },
+  {
+    "Type": "States",
+    "Value": "ID",
+    "Name": "Idaho",
+    "Description": null,
+    "DisplayOrder": 12
+  },
+  {
+    "Type": "States",
+    "Value": "IL",
+    "Name": "Illinois",
+    "Description": null,
+    "DisplayOrder": 13
+  },
+  {
+    "Type": "States",
+    "Value": "IN",
+    "Name": "Indiana",
+    "Description": null,
+    "DisplayOrder": 14
+  },
+  {
+    "Type": "States",
+    "Value": "IA",
+    "Name": "Iowa",
+    "Description": null,
+    "DisplayOrder": 15
+  },
+  {
+    "Type": "States",
+    "Value": "KS",
+    "Name": "Kansas",
+    "Description": null,
+    "DisplayOrder": 16
+  },
+  {
+    "Type": "States",
+    "Value": "KY",
+    "Name": "Kentucky",
+    "Description": null,
+    "DisplayOrder": 17
+  },
+  {
+    "Type": "States",
+    "Value": "LA",
+    "Name": "Louisiana",
+    "Description": null,
+    "DisplayOrder": 18
+  },
+  {
+    "Type": "States",
+    "Value": "ME",
+    "Name": "Maine",
+    "Description": null,
+    "DisplayOrder": 19
+  },
+  {
+    "Type": "States",
+    "Value": "MD",
+    "Name": "Maryland",
+    "Description": null,
+    "DisplayOrder": 20
+  },
+  {
+    "Type": "States",
+    "Value": "MA",
+    "Name": "Massachusetts",
+    "Description": null,
+    "DisplayOrder": 21
+  },
+  {
+    "Type": "States",
+    "Value": "MI",
+    "Name": "Michigan",
+    "Description": null,
+    "DisplayOrder": 22
+  },
+  {
+    "Type": "States",
+    "Value": "MN",
+    "Name": "Minnesota",
+    "Description": null,
+    "DisplayOrder": 23
+  },
+  {
+    "Type": "States",
+    "Value": "MS",
+    "Name": "Mississippi",
+    "Description": null,
+    "DisplayOrder": 24
+  },
+  {
+    "Type": "States",
+    "Value": "MO",
+    "Name": "Missouri",
+    "Description": null,
+    "DisplayOrder": 25
+  },
+  {
+    "Type": "States",
+    "Value": "MT",
+    "Name": "Montana",
+    "Description": null,
+    "DisplayOrder": 26
+  },
+  {
+    "Type": "States",
+    "Value": "NE",
+    "Name": "Nebraska",
+    "Description": null,
+    "DisplayOrder": 27
+  },
+  {
+    "Type": "States",
+    "Value": "NV",
+    "Name": "Nevada",
+    "Description": null,
+    "DisplayOrder": 28
+  },
+  {
+    "Type": "States",
+    "Value": "NH",
+    "Name": "New Hampshire",
+    "Description": null,
+    "DisplayOrder": 29
+  },
+  {
+    "Type": "States",
+    "Value": "NJ",
+    "Name": "New Jersey",
+    "Description": null,
+    "DisplayOrder": 30
+  },
+  {
+    "Type": "States",
+    "Value": "NM",
+    "Name": "New Mexico",
+    "Description": null,
+    "DisplayOrder": 31
+  },
+  {
+    "Type": "States",
+    "Value": "NY",
+    "Name": "New York",
+    "Description": null,
+    "DisplayOrder": 32
+  },
+  {
+    "Type": "States",
+    "Value": "NC",
+    "Name": "North Carolina",
+    "Description": null,
+    "DisplayOrder": 33
+  },
+  {
+    "Type": "States",
+    "Value": "ND",
+    "Name": "North Dakota",
+    "Description": null,
+    "DisplayOrder": 34
+  },
+  {
+    "Type": "States",
+    "Value": "OH",
+    "Name": "Ohio",
+    "Description": null,
+    "DisplayOrder": 35
+  },
+  {
+    "Type": "States",
+    "Value": "OK",
+    "Name": "Oklahoma",
+    "Description": null,
+    "DisplayOrder": 36
+  },
+  {
+    "Type": "States",
+    "Value": "OR",
+    "Name": "Oregon",
+    "Description": null,
+    "DisplayOrder": 37
+  },
+  {
+    "Type": "States",
+    "Value": "PA",
+    "Name": "Pennsylvania",
+    "Description": null,
+    "DisplayOrder": 38
+  },
+  {
+    "Type": "States",
+    "Value": "RI",
+    "Name": "Rhode Island",
+    "Description": null,
+    "DisplayOrder": 39
+  },
+  {
+    "Type": "States",
+    "Value": "SC",
+    "Name": "South Carolina",
+    "Description": null,
+    "DisplayOrder": 40
+  },
+  {
+    "Type": "States",
+    "Value": "SD",
+    "Name": "South Dakota",
+    "Description": null,
+    "DisplayOrder": 41
+  },
+  {
+    "Type": "States",
+    "Value": "TN",
+    "Name": "Tennessee",
+    "Description": null,
+    "DisplayOrder": 42
+  },
+  {
+    "Type": "States",
+    "Value": "TX",
+    "Name": "Texas",
+    "Description": null,
+    "DisplayOrder": 43
+  },
+  {
+    "Type": "States",
+    "Value": "UT",
+    "Name": "Utah",
+    "Description": null,
+    "DisplayOrder": 44
+  },
+  {
+    "Type": "States",
+    "Value": "VT",
+    "Name": "Vermont",
+    "Description": null,
+    "DisplayOrder": 45
+  },
+  {
+    "Type": "States",
+    "Value": "VA",
+    "Name": "Virginia",
+    "Description": null,
+    "DisplayOrder": 46
+  },
+  {
+    "Type": "States",
+    "Value": "WA",
+    "Name": "Washington",
+    "Description": null,
+    "DisplayOrder": 47
+  },
+  {
+    "Type": "States",
+    "Value": "WV",
+    "Name": "West Virginia",
+    "Description": null,
+    "DisplayOrder": 48
+  },
+  {
+    "Type": "States",
+    "Value": "WI",
+    "Name": "Wisconsin",
+    "Description": null,
+    "DisplayOrder": 49
+  },
+  {
+    "Type": "States",
+    "Value": "WY",
+    "Name": "Wyoming",
+    "Description": null,
+    "DisplayOrder": 50
+  },
+  {
+    "Type": "States",
+    "Value": "DC",
+    "Name": "Washington DC",
+    "Description": null,
+    "DisplayOrder": 51
+  },
+  {
+    "Type": "States",
+    "Value": "PR",
+    "Name": "Puerto Rico",
+    "Description": null,
+    "DisplayOrder": 52
+  },
+  {
+    "Type": "States",
+    "Value": "VI",
+    "Name": "US Virgin Islands",
+    "Description": null,
+    "DisplayOrder": 53
+  },
+  {
+    "Type": "OfficeCategories",
+    "Value":"Cosmetic Surgery",
+    "Name": "Cosmetic Surgery",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "OfficeCategories",
+    "Value":"Dental",
+    "Name": "Dental",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "OfficeCategories",
+    "Value":"Education",
+    "Name": "Education",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "OfficeCategories",
+    "Value":"Mens Health",
+    "Name": "Mens Health",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "OfficeCategories",
+    "Value":"Regenerative Medicine",
+    "Name": "Regenerative Medicine",
+    "Description": null,
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "OfficeCategories",
+    "Value":"Tax Relief",
+    "Name": "Tax Relief",
+    "Description": null,
+    "DisplayOrder": 6
+  },
+  {
+    "Type": "OfficeCategories",
+    "Value":"Time Share",
+    "Name": "Time Share",
+    "Description": null,
+    "DisplayOrder": 7
+  },
+  {
+    "Type": "OfficeCategories",
+    "Value":"Other",
+    "Name": "Other",
+    "Description": null,
+    "DisplayOrder": 8
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Limited Liability Company",
+    "Name": "Limited Liability Company (LLC)",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Limited Liability Partnership",
+    "Name": "Limited Liability Company (LLP)",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Limited Company",
+    "Name": "Limited Company (LTD)",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Partnership",
+    "Name": "Partnership",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Privately Held Corp",
+    "Name": "Privately Held Corp",
+    "Description": null,
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Publicly Traded Corp",
+    "Name": "Publicly Traded Corp",
+    "Description": null,
+    "DisplayOrder": 6
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Professional Corporation",
+    "Name": "Professional Corporation (PC)",
+    "Description": null,
+    "DisplayOrder": 7
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Professional Association",
+    "Name": "Professional Association (PA)",
+    "Description": null,
+    "DisplayOrder": 8
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Professional Services",
+    "Name": "Professional Services",
+    "Description": null,
+    "DisplayOrder": 9
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Sole Proprietorship",
+    "Name": "Sole Proprietorship",
+    "Description": null,
+    "DisplayOrder": 10
+  },
+  {
+    "Type": "BusinessTypes",
+    "Value": "Other",
+    "Name": "Other",
+    "Description": null,
+    "DisplayOrder": 11
+  },
+  {
+    "Type": "HowHeard",
+    "Name": "BDM - Marcio",
+    "Value": "bdm-marcio",
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "HowHeard",
+    "Name": "BDM - Mike",
+    "Value": "bdm-mike",
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "HowHeard",
+    "Name": "BDM - Ramsey",
+    "Value": "bdm-ramsey",
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "HowHeard",
+    "Name": "Online Search",
+    "Value": "online-search",
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "HowHeard",
+    "Name": "Other",
+    "Value": "other",
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "DocumentType",
+    "Name": "Bank Reference Letter",
+    "Value": "Bank Reference Letter",
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "DocumentType",
+    "Name": "Business License",
+    "Value": "Business License",
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "DocumentType",
+    "Name": "Financial Statement",
+    "Value": "Financial Statement",
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "DocumentType",
+    "Name": "Pay Stub",
+    "Value": "Pay Stub",
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "DocumentType",
+    "Name": "Photo ID",
+    "Value": "Photo ID",
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "DocumentType",
+    "Name": "Reference Letter",
+    "Value": "Reference Letter",
+    "DisplayOrder": 6
+  },
+  {
+    "Type": "DocumentType",
+    "Name": "Voided Check",
+    "Value": "Voided Check",
+    "DisplayOrder": 7
+  },
+  {
+    "Type": "RelationshipToCustomer",
+    "Value": "0",
+    "Name": "Self",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "RelationshipToCustomer",
+    "Value": "1",
+    "Name": "Parent",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "RelationshipToCustomer",
+    "Value": "2",
+    "Name": "Grand Parent",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "RelationshipToCustomer",
+    "Value": "3",
+    "Name": "Sibling",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "RelationshipToCustomer",
+    "Value": "4",
+    "Name": "Relative",
+    "Description": null,
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "RelationshipToCustomer",
+    "Value": "5",
+    "Name": "Friend",
+    "Description": null,
+    "DisplayOrder": 6
+  },
+  {
+    "Type": "RelationshipToCustomer",
+    "Value": "6",
+    "Name": "Other",
+    "Description": null,
+    "DisplayOrder": 7
+  },
+  {
+    "Type": "ResidenceStatus",
+    "Value": "0",
+    "Name": "Rent",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "ResidenceStatus",
+    "Value": "1",
+    "Name": "Own",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "ResidenceStatus",
+    "Value": "2",
+    "Name": "Other",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "EmploymentStatus",
+    "Value": "0",
+    "Name": "Employed (Full Time)",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "EmploymentStatus",
+    "Value": "1",
+    "Name": "Employed (Part Time)",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "EmploymentStatus",
+    "Value": "2",
+    "Name": "Self-Employed",
+    "Description": null,
+    "DisplayOrder": 3
+  },
+  {
+    "Type": "EmploymentStatus",
+    "Value": "3",
+    "Name": "Retired",
+    "Description": null,
+    "DisplayOrder": 4
+  },
+  {
+    "Type": "EmploymentStatus",
+    "Value": "4",
+    "Name": "Military",
+    "Description": null,
+    "DisplayOrder": 5
+  },
+  {
+    "Type": "EmploymentStatus",
+    "Value": "5",
+    "Name": "Student",
+    "Description": null,
+    "DisplayOrder": 6
+  },
+  {
+    "Type": "EmploymentStatus",
+    "Value": "6",
+    "Name": "Un-Employed",
+    "Description": null,
+    "DisplayOrder": 7
+  },
+  {
+    "Type": "EntityType",
+    "Value": "0",
+    "Name": "Office",
+    "Description": null,
+    "DisplayOrder": 1
+  },
+  {
+    "Type": "EntityType",
+    "Value": "1",
+    "Name": "LoanApp",
+    "Description": null,
+    "DisplayOrder": 2
+  },
+  {
+    "Type": "EntityType",
+    "Value": "2",
+    "Name": "Loan",
+    "Description": null,
+    "DisplayOrder": 3
+  }
+]

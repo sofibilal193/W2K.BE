@@ -1,0 +1,16 @@
+[
+    {
+        "OfficeType": "Lender",
+        "Category": "Settings",
+        "FieldType": "Checkbox",
+        "Name": "IsPaymentPlanLender",
+        "Description": "This setting determines whether a lender is an in-house payment plan lender or not.",
+        "DefaultValue": "false",
+        "DisplayOrder": 1,
+        "MinValue": null,
+        "MaxValue": null,
+        "RegexValidator": null,
+        "IsInternal": true,
+        "IsEncrypted": false
+    }
+]
