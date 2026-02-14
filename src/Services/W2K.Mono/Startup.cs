@@ -4,7 +4,6 @@ using W2K.Common.Infrastructure.DependencyInjection;
 using W2K.Common.Persistence.DependencyInjection;
 using W2K.Config.DependencyInjection;
 using Microsoft.ApplicationInsights.Extensibility;
-using W2K.WebApp;
 using W2K.Identity.DependencyInjection;
 using W2K.Files.DependencyInjection;
 
