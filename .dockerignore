@@ -1,0 +1,17 @@
+.dockerignore
+.git
+.gitignore
+**/.env
+docker-compose*.yml
+*.md
+**/obj
+**/Properties
+**/*Development.json
+**/*secrets.json
+**/Dockerfile
+.vs
+.vscode
+**/*.*proj.user
+*blobstorage*
+**/*.crt
+**/*.example

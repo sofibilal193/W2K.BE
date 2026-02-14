@@ -1,0 +1,23 @@
+version: '3.9'
+
+services:
+
+  sqldb:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    user: root
+    restart: unless-stopped
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: "${DOCKER_SQL_PASSWORD:?err}"
+    ports:
+      - "${DOCKER_SQL_PORT:?err}:1433"
+
+  redis:
+    image: redis:latest
+    user: root
+    restart: unless-stopped
+    environment:
+      ACCEPT_EULA: Y
+      SA_PASSWORD: "${DOCKER_REDIS_PASSWORD:?err}"
+    ports:
+      - "6379:6379"
