@@ -6,7 +6,6 @@ using W2K.Common.Application.Session;
 using W2K.Common.Application.Settings;
 using W2K.Common.Crypto;
 using Microsoft.AspNetCore.Http;
-using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 
 namespace W2K.Common.Application.Crypto;
@@ -15,21 +14,12 @@ public class ClientCryptoProvider(
     IHttpContextAccessor httpContextAccessor,
     IOptions<AppSettings> settings,
     ICryptoProvider cryptoProvider,
-    ISessionStore sessionStore,
-    ILogger<ClientCryptoProvider> logger) : IClientCryptoProvider
+    ISessionStore sessionStore) : IClientCryptoProvider
 {
-    private static readonly Action<ILogger, string?, Exception?> _logInternalServiceAuthKey = LoggerMessage.Define<string?>
-    (
-        LogLevel.Information,
-        new EventId(2, "InternalServiceAuthKey"),
-        "Internal Service Auth Header Key Value: {InternalServiceAuthKey}"
-    );
-
     private readonly IHttpContextAccessor _httpContextAccessor = httpContextAccessor;
     private readonly ICryptoProvider _cryptoProvider = cryptoProvider;
     private readonly ISessionStore _sessionStore = sessionStore;
     private readonly AppSettings _settings = settings.Value;
-    private readonly ILogger<ClientCryptoProvider> _logger = logger;
 
     /// <summary>
     /// Encrypts a string using the user's session encryption key.
@@ -43,6 +33,11 @@ public class ClientCryptoProvider(
         {
             try
             {
+                if (!_settings.AuthSettings.SessionSettings.EnforceOnAllRequests)
+                {
+                    return value;
+                }
+
                 var sessionId = GetSessionId();
                 if (sessionId is null)
                 {
@@ -73,6 +68,11 @@ public class ClientCryptoProvider(
     /// <returns>Decrypted text, or null if decryption fails</returns>
     public string? DecryptString(string? value)
     {
+        if (!_settings.AuthSettings.SessionSettings.EnforceOnAllRequests)
+        {
+            return value;
+        }
+
         if (string.IsNullOrEmpty(value) || IsInternalServiceCommunication())
         {
             return value;
@@ -125,7 +125,6 @@ public class ClientCryptoProvider(
         }
 
         var authKey = _httpContextAccessor.HttpContext.GetHeaderValueAs<string>(AuthConstants.InternalServiceAuthKeyHeaderName);
-        _logInternalServiceAuthKey(_logger, authKey, null);
 
         if (string.IsNullOrEmpty(authKey) || string.IsNullOrEmpty(_settings.AuthSettings.InternalServiceAuthKey))
         {
