@@ -106,8 +106,8 @@ public class ValidateDevUserCommandHandler(
                 new("extension_Role", devUser.DefaultOffice?.Role?.Name ?? "Administrator"),
                 new("extension_OfficePermissions", string.Join("|", devUser.DefaultOffice?.Role?.Permissions?.Select(x => x.Name) ?? [])),
                 new("extension_OfficeIds", string.Join('|', devUser.Offices.Select(x => x.OfficeId))),
-                new("extension_IsSuperAdmin", "false"),
-                new("extension_IsMultipleOffices", "false")
+                new("extension_IsSuperAdmin", devUser.DefaultOffice?.Office?.Type == OfficeType.SuperAdmin  ? "true" : "false"),
+                new("extension_IsMultipleOffices", devUser.Offices.Count > 1 ? "true" : "false")
             };
 
         //Create Security Token object by giving required parameters
