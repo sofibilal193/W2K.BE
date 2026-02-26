@@ -28,7 +28,7 @@ public class UpsertLoanFilesCommandHandler(
 
         _ = await _data.SaveEntitiesAsync(cancellationToken);
 
-        return files.Select(x => new FileDto(x.Id, x.Label)).ToList();
+        return [.. files.Select(x => new FileDto(x.Id, x.Label))];
     }
 
     private static Entities.File.FileInfo GetFileInfo(LoanFileCommand fileCommand, int officeId, int loanId, string path)
