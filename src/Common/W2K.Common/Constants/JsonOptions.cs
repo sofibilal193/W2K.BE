@@ -9,7 +9,6 @@ namespace W2K.Common.Constants;
 /// </summary>
 public static class JsonOptions
 {
-
     public static readonly JsonSerializerOptions IgnoreNullNotIndented = new()
     {
         WriteIndented = false,
